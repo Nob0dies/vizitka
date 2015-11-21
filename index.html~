@@ -1,0 +1,15 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+<metacharset="UTF8">
+<title>Workflow</title>
+<linkrel="stylesheet"href="bower/normalizecss/normalize.css">
+<linkrel="stylesheet"href="css/main.css">
+</head>
+<body>
+<h1>Workflowчасть1</h1>
+<p>Простотекст,которыймыбудемизменятьприпомощиlivereload</p>
+<scriptsrc="bower/jquery/jquery.js"></script><scriptsrc="js/main.js">
+</script>
+</body>
+</html>
