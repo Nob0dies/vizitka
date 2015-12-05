@@ -1,4 +1,4 @@
-{
+{  "name":"les",
   "name": "site",
   "dependencies": {
     "jquery": "1.8",

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -142px;
+}
+.wrapper:after {
+    content: "";
+    display: block;
+}
+.footer, .wrapper:after {
+    height: 142px;
+}
+.footer {
+    background: orange;
+}

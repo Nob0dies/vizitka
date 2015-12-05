@@ -1,34 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru-RU">
 <head>
-    <meta charset ="UTF8">
-    <title>Workflow</title>
-    <link rel="stylesheet"href="bower/normalize-css/normalize.css">
-    <link rel="stylesheet"href="css/main.css">
-    <link rel="stylesheet"href="css/main3.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Обо мне</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="bower/normalize-css/normalize.css">
+    <link rel="stylesheet" href="css/mainobwii.css">
+    <link rel="stylesheet" href="css/main3.css">
+    <script src="bower/modernizr/modernizr.js"></script>
 </head>
 <body>
-
 <div class="wrapper">
-    <div class="conteiner">
-        <header class="header">
+    <header class="header">
+        <div class="heder_block">
             <div class="logo">
-                <img src="./img/logo.png">
+                <a href="#">
+                    <img src="./img/logo.png" alt="logo">
+                    <span style="position:absolute;left:-9999px;">Loftschool</span>
+                </a>
             </div>
-            <div class="socset"></div>
-            <img class="border" src="./img/border.png">
-        </header>
-        <aside class="knopki"></aside>
-        <section class="content"></section>
+            <div class="socseti">
+                <ul class="icons">
+                    <li><a class="sprite sprite-facebook" href="https://uk-ua.facebook.com/">
+                        <span style="position:absolute;left:-9999px;">Facebook</span></a></li>
+                    <li><a class="sprite sprite-vk" href="https://vk.com/nob0dies">
+                        <span style="position:absolute;left:-9999px;">Вконтакте</span>
+                    </a></li>
+                    <li><a class="sprite sprite-twitter" href="https://twitter.com/?lang=ru">
+                        <span style="position:absolute;left:-9999px;">Tvitter</span>
+                    </a></li>
+                    <li><a class="sprite sprite-github" href="https://github.com/Nob0dies">
+                        <span style="position:absolute;left:-9999px;">GitHub</span>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="conteiner">
+        <aside class="knopki">
+            <ul class="vkladki">
+                <li><a class="vkladki__item  radius" href="index.html">
+                    <h3 class="text_vkladki">Обо мне</h3>
+                </a></li>
+                <li><a class="vkladki__item " href="index2.html">
+                    <h3 class="text_vkladki">Мои Работы</h3></a></li>
+                <li><a class="vkladki__item radius1 vkladki__item-active" href="#">
+                    <h3 class="text_vkladki">Обратная связь</h3></a></li>
+            </ul>
+            <div class="kontaktu">
+                <ul class="spisok">
+                    <li class="kont radius"><h3 class="kont_text">Контакты</h3></li>
+                    <li><a class="kontaktu_item " href=""><img class="strelki" src="./img/mail.png" alt="decorate">
+
+                        <p class="dannue">Femida1990@mail.ru</p></a></li>
+                    <li><a class="kontaktu_item" href=""><img class="strelki" src="./img/phone.png" alt="decorate">
+
+                        <p class="dannue"> +380971364584</p></a></li>
+                    <li><a class="kontaktu_item radius1" href=""><img class="strelki" src="./img/skype.png"
+                                                                      alt="decorate">
+
+                        <p class="dannue"> nobodies235</p></a></li>
+                </ul>
+            </div>
+        </aside>
+
+
+        <section class="content">
+            <article class="block radius1 radius">
+                <div class="shapka radius">
+                    <h3 class="shaka_h" >У вас интересный проэкт? Напишите мне</h3>
+                </div>
+                <div class="center">
+                    <form name="obratnaia_sviaz" action="#">
+                        <div class="input">
+                            <p>Имя</p>
+                            <input class="name_mail style " type="text" placeholder="Как к Вам обращаться">
+                        </div>
+                        <div class="input marg">
+                            <p>Email</p>
+                            <input class="name_mail style " type="text" placeholder="Куда мне писать">
+                        </div>
+                        <div class="input massage_inp">
+                            <p>Сообщение</p>
+                            <textarea name="massage" class="massage style">Кратко в чем суть</textarea>
+                        </div>
+                        <div class="input_kap4a">
+                            <p>Введите код,указанный на картинке</p>
+
+                            <div class="input_bot ">
+                                <img class="img_kap4a" src="./img/captcha.png" alt="Капча">
+                            </div>
+                            <div class="input_bot">
+                                <input class="kod style" type="text" placeholder="Введите код">
+                            </div>
+                            <div class="input"></div>
+                        </div>
+                        <div class="input button ">
+                            <input class="submit style" type="submit" value="Отправить">
+                        </div>
+                        <div class="input button ">
+                            <input class="reset style" type="reset" value="Очистить">
+                        </div>
+
+                    </form>
+                </div>
+            </article>
+        </section>
     </div>
 
 </div>
-<footer>
-
+<div class="otstup"></div>
+<footer class="footer">
+    <div class="cont_footer"><img src="./img/locked2.png" alt="exit"><span class="exit">Вход</span><span class="prava">
+        ©2015. Это мой сайт, пожалуйста не копируйте и не воруйте его</span>
+    </div>
 </footer>
 
 
-<script src="bower/jquery/jquery.js"></script><script src ="js/main.js">
+<script src="bower/jquery/jquery.js"></script>
+<script src="js/main.js">
 </script>
 </body>
 </html>

@@ -1,35 +1,172 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru-RU">
 <head>
-    <meta charset ="UTF8">
-    <title>Workflow</title>
-    <link rel="stylesheet"href="bower/normalize-css/normalize.css">
-    <link rel="stylesheet"href="css/main.css">
-    <link rel="stylesheet"href="css/main2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Обо мне</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="bower/normalize-css/normalize.css">
+    <link rel="stylesheet" href="css/mainobwii.css">
+    <link rel="stylesheet" href="css/main2.css">
+    <script src="bower/modernizr/modernizr.js"></script>
 </head>
 <body>
-<!-- test git push-->
-<!-- test git push-->
 <div class="wrapper">
-    <div class="conteiner">
-        <header class="header">
+    <header class="header">
+        <div class="heder_block">
             <div class="logo">
-                <img src="./img/logo.png">
+                <a href="index.html">
+                    <img src="./img/logo.png" alt="logo">
+                    <span style="position:absolute;left:-9999px;">Loftschool</span>
+                </a>
             </div>
-            <div class="socset"></div>
-            <img class="border" src="./img/border.png">
-        </header>
-        <aside class="knopki"></aside>
-        <section class="content"></section>
+            <div class="socseti">
+                <ul class="icons">
+                    <li><a class="sprite sprite-facebook" href="https://uk-ua.facebook.com/">
+                        <span style="position:absolute;left:-9999px;">Facebook</span></a></li>
+                    <li><a class="sprite sprite-vk" href="https://vk.com/nob0dies">
+                        <span style="position:absolute;left:-9999px;">Вконтакте</span>
+                    </a></li>
+                    <li><a class="sprite sprite-twitter" href="https://twitter.com/?lang=ru">
+                        <span style="position:absolute;left:-9999px;">Tvitter</span>
+                    </a></li>
+                    <li><a class="sprite sprite-github" href="https://github.com/Nob0dies">
+                        <span style="position:absolute;left:-9999px;">GitHub</span>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="conteiner">
+        <aside class="knopki">
+            <ul class="vkladki">
+                <li><a class="vkladki__item  radius" href="index.html"><h3 class="text_vkladki">Обо мне</h3>
+                </a></li>
+                <li><a class="vkladki__item vkladki__item-active" href="#"><h3 class="text_vkladki">Мои Работы</h3></a>
+                </li>
+                <li><a class="vkladki__item radius1 " href="index3.html"><h3 class="text_vkladki">Обратная связь</h3>
+                </a>
+                </li>
+            </ul>
+            <div class="kontaktu">
+                <ul class="spisok">
+                    <li class="kont radius"><h3 class="kont_text">Контакты</h3></li>
+                    <li><a class="kontaktu_item " href=""><img class="strelki" src="./img/mail.png" alt="decorate">
+
+                        <p class="dannue">Femida1990@mail.ru</p></a></li>
+                    <li><a class="kontaktu_item" href=""><img class="strelki" src="./img/phone.png" alt="decorate">
+
+                        <p class="dannue"> +380971364584</p></a></li>
+                    <li><a class="kontaktu_item radius1" href=""><img class="strelki" src="./img/skype.png"
+                                                                      alt="decorate">
+
+                        <p class="dannue"> nobodies235</p></a></li>
+                </ul>
+            </div>
+        </aside>
+
+
+        <div class="content">
+            <article class="block radius1 radius">
+                <div class="shapka radius"><h3>Мои работы</h3></div>
+                <div class="thumb radius radius1">
+                    <ul class="sait_ssulki">
+                        <li class="img-container">
+                            <img class="sait radius " src="./img/fsto.jpg" alt="Fs.to">
+
+                            <div class="img-caption top-bottom">
+                                <a href="http://fs.to/"><h5>Подробнее...</h5></a>
+                            </div>
+                        </li>
+                        <li><h4 class="nazvanie_saita">Fs.to</h4>Сайт с большой коллекцией фильмов,хорошего качества
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="thumb radius radius1">
+                    <ul class="sait_ssulki">
+                        <li class="img-container">
+                            <img class="sait radius" src="./img/MM.jpg" alt="www.marilynmanson.com">
+
+                            <div class="img-caption top-bottom"><a href="http://www.marilynmanson.com/">
+                                <h5>Подробнее...</h5>
+                            </a></div>
+                        </li>
+                        <li><h4 class="nazvanie_saita">M.Manson</h4>Фан-сайт рок идола Мерлина Менсона с большой
+                            посещаемостью
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="thumb radius radius1">
+                    <ul class="sait_ssulki">
+                        <li class="img-container">
+                            <img class="sait radius " src="./img/kofta.jpg" alt="kofta.com.ua">
+
+                            <div class="img-caption top-bottom">
+                                <a href="http://kofta.com.ua/"><h5>Подробнее...</h5></a>
+                            </div>
+                        </li>
+                        <li><h4 class="nazvanie_saita">kofta.com.ua</h4>Экстравагантные и очень оригинальные коллекции
+                            украинского диайнера
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="thumb radius radius1">
+                    <ul class="sait_ssulki">
+                        <li class="img-container">
+                            <img class="sait radius " src="./img/gotfric.jpg" alt="gotfrik.com">
+
+                            <div class="img-caption top-bottom">
+                                <a href="http://gotfrik.com/"><h5>Подробнее...</h5></a>
+                            </div>
+                        </li>
+                        <li><h4 class="nazvanie_saita">gotfrik.com</h4>Творчество поэтессы, писательницы, певицы Лизы
+                            Готфрик.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="thumb radius radius1">
+                    <ul class="sait_ssulki">
+                        <li class="img-container">
+                            <img class="sait radius " src="./img/tera.jpg" alt="www.tera-online.ru">
+
+                            <div class="img-caption top-bottom">
+                                <a href="http://www.tera-online.ru/"><h5>Подробнее...</h5></a>
+                            </div>
+                        </li>
+                        <li><h4 class="nazvanie_saita">Tera</h4>Красочная, русскоязычная, онлайн игра в свободном
+                            доступе
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="thumb_dobavit radius radius1 img-container">
+                    <img class="dobavit" src="./img/pic1-.png" alt="Картинка">
+                    <h4>Добавить проэкт</h4>
+
+                    <div class="img-caption top-bottom"></div>
+                </div>
+
+            </article>
+        </div>
     </div>
 
 </div>
-<footer>
 
+<div class="otstup"></div>
+<footer class="footer">
+    <div class="cont_footer"><img src="./img/locked2.png" alt="exit"><span class="exit">Вход</span><span class="prava">
+        ©2015. Это мой сайт, пожалуйста не копируйте и не воруйте его</span>
+    </div>
 </footer>
 
 
-<script src="bower/jquery/jquery.js"></script><script src ="js/main.js">
+<script src="bower/jquery/jquery.js"></script>
+<script src="js/main.js">
 </script>
 </body>
 </html>
