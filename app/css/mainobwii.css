@@ -197,6 +197,12 @@ li {
 
 .vkladki__item :visited {
     color: #727070;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbfafa+0,e6e3e2+99 */
+    background: #fbfafa; /* Old browsers */
+    background: -moz-linear-gradient(top, #fbfafa 0%, #e6e3e2 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fbfafa 0%, #e6e3e2 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fbfafa 0%, #e6e3e2 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfafa', endColorstr='#e6e3e2', GradientType=0); /* IE6-9 */
 
 }
 
@@ -313,7 +319,7 @@ li {
 
 .cont_footer {
     margin: auto;
-    width: 580px;
+    width: 590px;
     padding-top: 15px;
 }
 
