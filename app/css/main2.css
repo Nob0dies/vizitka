@@ -1,11 +1,15 @@
+.my_work{
+    padding-left: 0;
+}
 .thumb {
     display: inline-block;
     max-width: 170px;
-    margin-left: 28px;
-    margin-top: 28px;
+    margin-left: 30px;
+    margin-top: 30px;
     vertical-align: top;
     border: 2px solid #c5c5c5;
     background: #ffffff;
+
 
 }
 
@@ -42,11 +46,20 @@
 }
 
 .nazvanie_saita {
-    width: 170px;
-    height: 20px;
+    width: 155px;
     background: #f2f2f2;
-    padding-top: 5px;
+    padding:5px;
+    padding-left: 10px;
 
+}
+.description{
+    padding:5px;
+    font-size: 12px;
+    font-family: 'open_sanslight';
+}
+h4{
+    font-size: 13px;
+    font-family: 'open_sanssemibold';
 }
 
 a {

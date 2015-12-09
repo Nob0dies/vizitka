@@ -18,7 +18,7 @@
             <div class="logo">
                 <a href="#">
                     <img src="./img/logo.png" alt="logo">
-                    <span style="position:absolute;left:-9999px;">Loftschool</span>
+                    <h1 class="logo_loftschool" >Loftschool</h1>
                 </a>
             </div>
             <div class="socseti">
@@ -38,7 +38,7 @@
             </div>
         </div>
     </header>
-    <div class="conteiner">
+    <div class="conteiner clearfix">
         <aside class="knopki">
             <ul class="vkladki">
                 <li><a class="vkladki__item vkladki__item-active radius" href="#"><h3 class="text_vkladki">Обо мне</h3>
@@ -50,11 +50,11 @@
             <div class="kontaktu">
                 <ul class="spisok">
                     <li class="kont radius"><h3 class="kont_text">Контакты</h3></li>
-                    <li><a class="kontaktu_item" href="mailto:femida1990@mail.ru">
+                    <li><a class="mail " href="mailto:femida1990@mail.ru">
                         <img class="strelki" src="./img/mail.png" alt="decorate">
 
-                        <p class="dannue">Femida1990@mail.ru</p></a></li>
-                    <li><a class="kontaktu_item" href="skype:+380971364584?call">
+                        <p class="dannue ">Femida1990@mail.ru</p></a></li>
+                    <li><a class="kontaktu_item " href="skype:+380971364584?call">
                         <img class="strelki" src="./img/phone.png" alt="decorate">
 
                         <p class="dannue">+380971364584</p></a></li>
@@ -68,65 +68,80 @@
         </aside>
         <div class="content">
             <article class="block radius1 radius">
-                <div class="shapka radius"><h3 class="shaka_h">Основная информация</h3></div>
+                <div class="shapka radius"><h2 class="shaka_h">Основная информация</h2></div>
                 <div class="foto_block">
                     <img class="foto" src="./img/r9xgRH9wmhQ.jpg" alt="my foto"></div>
                 <div class="block_text1">
 
-                    <p class="text_kontent">Меня зовут: Гончар Елизавета Владимировна</p>
+                    <p class="text_kontent"><span class="font">Меня зовут:<span></span> Гончар Елизавета Владимировна</p>
 
-                    <p class="text_kontent"> Мой возраст: 25лет</p>
+                    <p class="text_kontent"><span class="font"> Мой возраст:</span> 25лет</p>
 
-                    <p class="text_kontent">Мой город: Мариуполь,Украина</p>
+                    <p class="text_kontent"><span class="font">Мой город:</span> Мариуполь,Украина</p>
 
-                    <p class="text_kontent">Моя специализация:FRONTEND разработчик</p>
+                    <p class="text_kontent"><span class="font">Моя специализация:</span> FRONTEND разработчик</p>
 
-                    <p class="text_kontent">Ключевые навыки: <img src="./img/html.png " alt="html">
-                        <img src="./img/css.png" alt="css"> <img src="./img/Javascript.png" alt="JavaScript">
-                        <img src="./img/Git.png" alt="Git"> <img src="./img/gulp1-.png" alt="Gulp">
-                        <img src="./img/php.png" alt="php"> <img src="./img/Angular.png" alt="Angular">
-                        <img src="./img/XML.png" alt="XML"></p>
+                    <div class="key_skills"><span class="font">Ключевые навыки:</span></div> <div class="skills">
+                      <ul class="skills_block">
+                        <li><img src="./img/html.png " alt="html"></li>
+                        <li><img src="./img/css.png" alt="css"></li>
+                        <li><img src="./img/Javascript.png" alt="JavaScript"></li>
+                        <li><img src="./img/Git.png" alt="Git"></li>
+                        <li><img src="./img/gulp1-.png" alt="Gulp"></li>
+                        <li><img src="./img/php.png" alt="php"></li>
+                        <li><img src="./img/Angular.png" alt="Angular"></li>
+                        <li><img src="./img/XML.png" alt="XML"></li>
+                    </ul>
+                    </div>
                 </div>
             </article>
 
             <article class="block radius1 radius">
-                <div class="shapka radius"><h3 class="shaka_h">Опыт работы</h3></div>
+                <div class="shapka radius"><h2 class="shaka_h">Опыт работы</h2></div>
                 <ul class="spisok_content">
                     <li class="pading_block">
-                        <p class="block_text">"ИП Боровицкий"- Проодавец дисков</p>
+                        <div class="icon_sprite"></div>
+
+                        <p class="block_text"><span class="font">"ИП Боровицкий"- Проодавец дисков</span></p>
 
                         <p class="block_text">Сентябрь 2005 - Август 2008</p>
                     </li>
                     <li class="pading_block">
-                        <p class="block_text">"ООО Система безопасности"-Системный администратор</p>
+                        <div class="icon_sprite"></div>
+
+                        <p class="block_text"><span class="font">"ООО Система безопасности"-Системный администратор</span></p>
 
                         <p class="block_text">Июнь 2008 - Июль 2010</p>
                     </li>
                     <li class="pading_block">
-                        <p class="block_text">"Магазин Розничная сеть"- Ведущий аналитик по внедрению </p>
+                        <div class="icon_sprite"></div>
 
-                        <p class="block_text">Oracle Web Center</p>
+                        <p class="block_text"><span class="font">"Магазин Розничная сеть"- Ведущий аналитик по внедрению </span></p>
+
+                        <p class="block_text"><span class="font">Oracle Web Center</span></p>
 
                         <p class="block_text">Август 2011 - Октябрь 2012</p>
                     </li>
                 </ul>
             </article>
             <article class="block radius1 radius">
-                <div class="shapka radius"><h3 class="shaka_h"> Образование</h3></div>
+                <div class="shapka radius"><h2 class="shaka_h"> Образование</h2></div>
                 <ul class="spisok_content">
                     <li class="obrazovanie1">
-                        <p class="block_text">Незаконченное среднее.ЗОШ №31в</p>
-
+                        <div class="icon_sprite"></div>
+                        <p class="block_text"><span class="font">Незаконченное среднее.ЗОШ №31в</span></p>
                         <p class="block_text"> Сентября 1997 - Май 2005</p>
                     </li>
                     <li class="obrazovanie2">
-                        <p class="block_text">Среднее-специальное. КПЛНП - Лаборант
-                            химического анализа</p>
+                        <div class="icon_sprite"></div>
+                        <p class="block_text"><span class="font">Среднее-специальное. КПЛНП - Лаборант
+                            химического анализа</span></p>
 
                         <p class="block_text">Сентябрь2005 - Июнь2008</p>
                     </li>
                     <li class="obrazovanie3">
-                        <p class="block_text">Курсы Loftschool.ru</p>
+                        <div class="icon_sprite"></div>
+                        <p class="block_text"><span class="font">Курсы Loftschool.ru</span></p>
 
                         <p class="block_text">Ноябрь 2015 по настоящее время</p>
                     </li>

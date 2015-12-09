@@ -15,14 +15,14 @@
     <header class="header">
         <div class="heder_block">
             <div class="logo">
-                <a href="#">
+                <a href="index.html">
                     <img src="./img/logo.png" alt="logo">
-                    <span style="position:absolute;left:-9999px;">Loftschool</span>
+                    <h1 class="logo_loftschool" >Loftschool</h1>
                 </a>
             </div>
             <div class="socseti">
                 <ul class="icons">
-                    <li><a class="sprite sprite-facebook" href="https://uk-ua.facebook.com/">
+                    <li><a class="sprite sprite-facebook " href="https://uk-ua.facebook.com/">
                         <span style="position:absolute;left:-9999px;">Facebook</span></a></li>
                     <li><a class="sprite sprite-vk" href="https://vk.com/nob0dies">
                         <span style="position:absolute;left:-9999px;">Вконтакте</span>
@@ -37,7 +37,7 @@
             </div>
         </div>
     </header>
-    <div class="conteiner">
+    <div class="conteiner clearfix">
         <aside class="knopki">
             <ul class="vkladki">
                 <li><a class="vkladki__item  radius" href="index.html">
@@ -51,16 +51,14 @@
             <div class="kontaktu">
                 <ul class="spisok">
                     <li class="kont radius"><h3 class="kont_text">Контакты</h3></li>
-                    <li><a class="kontaktu_item " href=""><img class="strelki" src="./img/mail.png" alt="decorate">
-
+                    <li><a class="mail " href="mailto:femida1990@mail.ru">
+                        <img class="strelki" src="./img/mail.png" alt="decorate">
                         <p class="dannue">Femida1990@mail.ru</p></a></li>
-                    <li><a class="kontaktu_item" href=""><img class="strelki" src="./img/phone.png" alt="decorate">
+                    <li><a class="kontaktu_item" href="skype:+380971364584?call"><img class="strelki" src="./img/phone.png" alt="decorate">
 
                         <p class="dannue"> +380971364584</p></a></li>
-                    <li><a class="kontaktu_item radius1" href=""><img class="strelki" src="./img/skype.png"
-                                                                      alt="decorate">
-
-                        <p class="dannue"> nobodies235</p></a></li>
+                    <li><a class="kontaktu_item radius1" href="skype:nobodies235?call">
+                        <img class="strelki" src="./img/skype.png" alt="decorate"><p class="dannue"> nobodies235</p></a></li>
                 </ul>
             </div>
         </aside>
@@ -69,38 +67,38 @@
         <section class="content">
             <article class="block radius1 radius">
                 <div class="shapka radius">
-                    <h3 class="shaka_h" >У вас интересный проэкт? Напишите мне</h3>
+                    <h2 class="shaka_h" >У вас интересный проэкт? Напишите мне</h2>
                 </div>
                 <div class="center">
                     <form name="obratnaia_sviaz" action="#">
                         <div class="input">
-                            <p>Имя</p>
-                            <input class="name_mail style " type="text" placeholder="Как к Вам обращаться">
+                            <label class="form-name" for="name">Имя</label>
+                            <input class="name_mail style " type="text" id="name" placeholder="Как к Вам обращаться">
                         </div>
                         <div class="input marg">
-                            <p>Email</p>
-                            <input class="name_mail style " type="text" placeholder="Куда мне писать">
+                            <label class="form-mail" for="mail">Email</label>
+                            <input class="name_mail style " type="text" id="mail" placeholder="Куда мне писать">
                         </div>
                         <div class="input massage_inp">
-                            <p>Сообщение</p>
-                            <textarea name="massage" class="massage style"></textarea>
+                            <label class="form-massage" for="massage"> Сообщение</label>
+                            <textarea name="massage" id="massage" class="massage style" placeholder="Кратко в чем суть"></textarea>
                         </div>
                         <div class="input_kap4a">
-                            <p>Введите код,указанный на картинке</p>
+                            <label class="form-cod" for="cod">Введите код,указанный на картинке</label>
 
                             <div class="input_bot ">
                                 <img class="img_kap4a" src="./img/captcha.png" alt="Капча">
                             </div>
                             <div class="input_bot">
-                                <input class="kod style" type="text" placeholder="Введите код">
+                                <input class="kod style" type="text" id="cod" placeholder="Введите код">
                             </div>
                             <div class="input"></div>
                         </div>
                         <div class="input button ">
-                            <input class="submit style" type="submit" value="Отправить">
+                            <button class="submit style" type="submit" value="Отправить">Отправить</button>
                         </div>
                         <div class="input button ">
-                            <input class="reset style" type="reset" value="Очистить">
+                            <button class="reset style" type="reset" value="Очистить">Очистить</button>
                         </div>
 
                     </form>

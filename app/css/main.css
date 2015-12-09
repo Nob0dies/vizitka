@@ -1,16 +1,20 @@
 
 .pading_block {
-
-    background: url(../img/case1-.png) no-repeat;
-    background-position: left center;
-    background-repeat: no-repeat;
     padding-bottom: 8px;
-    border-top: 3px #dbdbda solid;
-    border-bottom: 3px #dbdbda solid;
+    border-top: 1px #dbdbda solid;
+    border-bottom: 1px #dbdbda solid;
+    min-height: 60px;
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: 'open_sansregular';
+}
+.pading_block .icon_sprite{
+    background-position: -69px -5px;
 }
 
 .block_text {
     display: block;
+    margin: 0;
 }
 
 .pading_block:first-child, .pading_block:last-child {
@@ -18,24 +22,29 @@
 }
 
 .spisok_content {
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px;
 }
-
-.block_text {
-
-    margin: 0;
-
+.icon_sprite {
+    height: 55px;
+    width: 54px;
+    float: left;
+    background: url("../img/spritesheet%20(2).png") no-repeat;
+    padding-bottom: 5px;
 }
 
 .obrazovanie1 {
-    background: url(../img/school1-.png) no-repeat;
-    background-position: left center;
-    background-repeat: no-repeat;
     padding-bottom: 8px;
-    border-top: 3px #dbdbda solid;
-    border-bottom: 3px #dbdbda solid;
+    border-top: 1px #dbdbda solid;
+    border-bottom: 1px #dbdbda solid;
+    min-height: 60px;
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: 'open_sansregular';
+}
+.obrazovanie1 .icon_sprite{
+    background-position: -133px -5px;
 }
 
 .obrazovanie1:first-child, .obrazovanie1:last-child {
@@ -52,12 +61,16 @@
 }
 
 .obrazovanie2 {
-    background: url(../img/Graguete1-.png) no-repeat;
-    background-position: left center;
-    background-repeat: no-repeat;
     padding-bottom: 8px;
-    border-top: 3px #dbdbda solid;
-    border-bottom: 3px #dbdbda solid;
+    border-top: 1px #dbdbda solid;
+    border-bottom: 1px #dbdbda solid;
+    min-height: 60px;
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: 'open_sansregular';
+}
+.obrazovanie2 .icon_sprite{
+    background-position: -5px -5px;
 }
 
 .obrazovanie2:first-child, .obrazovanie2:last-child {
@@ -74,12 +87,16 @@
 }
 
 .obrazovanie3 {
-    background: url(../img/diploma2-.png) no-repeat;
-    background-position: left center;
-    background-repeat: no-repeat;
     padding-bottom: 8px;
-    border-top: 3px #dbdbda solid;
-    border-bottom: 3px #dbdbda solid;
+    border-top: 1px #dbdbda solid;
+    border-bottom: 1px #dbdbda solid;
+    min-height: 60px;
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: 'open_sansregular';
+}
+.obrazovanie3 .icon_sprite{
+    background-position: -5px -70px;
 }
 
 .obrazovanie3:first-child, .obrazovanie3:last-child {
@@ -95,8 +112,8 @@
 }
 
 .foto {
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     border-radius: 50% 50%;
     overflow: hidden;
     border: 10px solid #f3f2f1;
@@ -104,14 +121,27 @@
 }
 
 .foto_block {
-    height: 180px;
-    width: 180px;
+    height: 130px;
+    width: 130px;
     float: left;
-    padding: 20px;
+    padding: 40px;
 }
 
 .block_text1 {
-    padding-top: 20px;
+    padding-top: 27px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.key_skills{
+    float: left;
+}
+.skills{
+    width: 300px;
+    padding-left: 110px;
+
+}
+.skills_block li{
+    display: inline;
 }
 
 .text_kontent {
@@ -125,4 +155,8 @@
 
 .pading_block > p {
     padding-left: 70px;
+}
+.font{
+    font-size: 14px;
+    font-family: 'open_sanssemibold';
 }

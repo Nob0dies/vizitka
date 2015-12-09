@@ -1,13 +1,19 @@
 .center {
-    width: 428px;
+    width: 405px;
     margin: 0 auto;
     margin-bottom: 50px;
 
 }
 
 .input {
-    margin-top: 25px;
+    width: 192px;
+    margin-top: 20px;
     display: inline-block;
+}
+label{
+    font-size: 14px;
+    font-family: 'open_sansregular';
+
 }
 
 .input_bot {
@@ -39,14 +45,15 @@
 }
 
 .massage  {
-    height: 178px;
+    height: 168px;
     width: 398px;
     padding-top: 13px;
+    resize: none;
 }
 
 .kod {
     height: 28px;
-    width: 188px;
+    width: 178px;
     margin-left: 15px;
 }
 
@@ -109,4 +116,18 @@
     margin-left: 9px;
 
 }
+button{
+    font-size: 14px;
+    font-family: 'open_sanssemibold';
 
+}
+
+
+input {
+    font-size: 12px;
+    font-family: 'open_sanslight';
+}
+textarea{
+    font-size: 12px;
+    font-family: 'open_sanslight';
+}
