@@ -21,7 +21,7 @@
     background: linear-gradient(to bottom, rgb(254, 253, 253) 0%, rgb(244, 243, 242) 53%, rgb(237, 235, 234) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefdfd', endColorstr='#edebea', GradientType=0);
     width: 170px;
-    height: 150px;
+    height: 120px;
     margin: 10px;
     vertical-align: top;
     border: 2px solid #c5c5c5;
@@ -33,6 +33,12 @@
 
 .dobavit {
     margin-top: 15px;
+    background: url("../img/pic1-.png");
+    width:54px ;
+    height: 55px;
+    margin-left:60px ;
+    margin-buttom:5px ;
+
 }
 
 .sait {

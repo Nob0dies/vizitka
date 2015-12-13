@@ -1,10 +1,10 @@
 
 .pading_block {
-    padding-bottom: 8px;
+    padding-bottom: 15px;
     border-top: 1px #dbdbda solid;
     border-bottom: 1px #dbdbda solid;
     min-height: 60px;
-    padding-top: 5px;
+    padding-top: 15px;
     font-size: 14px;
     font-family: 'open_sansregular';
 }
@@ -15,6 +15,7 @@
 .block_text {
     display: block;
     margin: 0;
+    padding-left: 98px;
 }
 
 .pading_block:first-child, .pading_block:last-child {
@@ -24,7 +25,7 @@
 .spisok_content {
     padding-left: 40px;
     padding-right: 40px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 .icon_sprite {
     height: 55px;
@@ -35,11 +36,11 @@
 }
 
 .obrazovanie1 {
-    padding-bottom: 8px;
+    padding-bottom: 15px;
     border-top: 1px #dbdbda solid;
     border-bottom: 1px #dbdbda solid;
     min-height: 60px;
-    padding-top: 5px;
+    padding-top: 15px;
     font-size: 14px;
     font-family: 'open_sansregular';
 }
@@ -56,16 +57,18 @@
 }
 
 .obrazovanie1 > p {
-    padding-left: 70px;
+    padding-left: 97px;
+    padding-top: 5px;
+
 
 }
 
 .obrazovanie2 {
-    padding-bottom: 8px;
+    padding-bottom: 15px;
     border-top: 1px #dbdbda solid;
     border-bottom: 1px #dbdbda solid;
     min-height: 60px;
-    padding-top: 5px;
+    padding-top: 15px;
     font-size: 14px;
     font-family: 'open_sansregular';
 }
@@ -82,16 +85,17 @@
 }
 
 .obrazovanie2 > p {
-    padding-left: 70px;
+    padding-left: 97px;
+    padding-top: 5px;
 
 }
 
 .obrazovanie3 {
-    padding-bottom: 8px;
+    padding-bottom: 15px;
     border-top: 1px #dbdbda solid;
     border-bottom: 1px #dbdbda solid;
     min-height: 60px;
-    padding-top: 5px;
+    padding-top: 15px;
     font-size: 14px;
     font-family: 'open_sansregular';
 }
@@ -108,7 +112,8 @@
 }
 
 .obrazovanie3 > p {
-    padding-left: 70px;
+    padding-left: 97px;
+    padding-top: 5px;
 }
 
 .foto {
@@ -166,15 +171,19 @@
     padding-top: 27px;
     width: 380px;
     padding-bottom: 27px;
-    padding-left: 10px;
+    padding-left: 12px;
     overflow: hidden;
 }
 .key_skills{
     float: left;
+    padding-left: 7px;
+    padding-top:10px ;
+
 }
 .skills{
     width: 300px;
-    padding-left: 110px;
+    padding-left: 108px;
+    padding-top: 10px;
 
 }
 .skills_block li{
@@ -195,7 +204,8 @@
 }
 
 .pading_block > p {
-    padding-left: 70px;
+    padding-left: 97px;
+    padding-top: 5px;
 }
 .font{
     font-size: 14px;

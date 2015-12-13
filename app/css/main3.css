@@ -7,7 +7,7 @@
 
 .input {
     width: 192px;
-    margin-top: 20px;
+    margin-top: 30px;
     display: inline-block;
 }
 label{
@@ -22,7 +22,7 @@ label{
 }
 
 .input_kap4a {
-    padding-top: 25px;
+    padding-top: 8px;
 }
 
 .style {
@@ -40,15 +40,19 @@ label{
 }
 
 .name_mail {
-    height: 35px;
-    width: 185px;
+    height: 37px;
+    width: 180px;
 }
 
 .massage  {
     height: 168px;
-    width: 398px;
-    padding-top: 13px;
+    width: 387px;
+    padding-top: 11px;
     resize: none;
+    margin-top: 4px;
+}
+.massage_inp{
+    margin-top: 13px;
 }
 
 .kod {
@@ -83,7 +87,7 @@ label{
 }
 
 .reset {
-    margin-left: 150px;
+    margin-left: 125px;
     border-style: solid;
     border-width: 1px;
     border-color: #b6b6b6;
@@ -110,10 +114,11 @@ label{
 .button {
     height: 36px;
     width: 120px;
+    margin-top: 0;
 }
 
 .marg {
-    margin-left: 9px;
+    margin-left: 13px;
 
 }
 button{
@@ -126,8 +131,14 @@ button{
 input {
     font-size: 12px;
     font-family: 'open_sanslight';
+    margin-top: 6px;
 }
 textarea{
     font-size: 12px;
     font-family: 'open_sanslight';
 }
+/**textarea:-moz-placeholder { color: red; }
+
+¬ Safari и Chrome стиль текста мен€етс€ следующим образом:
+
+textarea::-webkit-input-placeholder { color: red; }/**
