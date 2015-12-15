@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Обо мне</title>
+    <title>Мои работы</title>
     <link rel="icon" href="favicon.ico" >
     <!-- CSS -->
     <link rel="stylesheet" href="bower/normalize-css/normalize.css">
@@ -130,10 +130,12 @@
                                 </div>
                                 <h4 class="nazvanie_saita">Tera</h4><div class="description">Красочная, русскоязычная, онлайн игра в свободном
                                     доступе</div></li>
-                        <li class="thumb_dobavit radius radius1 img-container">
-                            <div class="dobavit"></div>
-                            <h4>Добавить проэкт</h4>
+                        <li  class="thumb_dobavit radius radius1">
+                            <div class="img-container">
+                                <div class="dobavit"></div>
+                                <a target="_blank" class="img-caption top-bottom" href="javascript:PopUpShow()"><h4 class="add-proj-img">Добавить проект</h4></a>
 
+                            </div>
                             <div class="img-caption top-bottom"></div>
                         </li>
                     </ul>
@@ -153,10 +155,55 @@
         ©2015. Это мой сайт,пожалуйста,не копируйте и не воруйте его!</span>
     </div>
 </footer>
+<div class="popup-add">
+    <div class="popup-header">
+        <h5 class="header-text">Добавление проекта</h5>
+        <div class="popup-content">
+            <a href="javascript:PopUpHide()">  <button class="button-close"></button></a>
+            <div class="form-center">
+                <form class="form-add-project">
+                    <div class="error-box"><label id="label-name-project" class="label-form" for="name-project" >Название проекта</label>
+                        <input class="proj radius radius1 error" type="text" id="name-project" placeholder="Введите название">
+                        <div class="error-block">введите название</div>
+                    </div>
+                    <div class="error-box">
+                        <label id="label-img-project" class="label-form" for="img-proj" >Картинка проекта</label>
+                        <label class="uploadbutton error">
+                            <div class="inp-img-conteiner">
+                                <div class="input inp-img" ><span class="inp-img-file">Выберите файл</span></div>
+                            </div>
+
+                            <div class="button">&nbsp;</div>
+
+                            <input type="file" id="img-proj" />
+
+                        </label>
+                        <div class="error-block">изображение</div>
+                    </div>
+                    <div class="error-box">
+                        <label id="label-url-project" class="label-form" for="url-project" >URL проекта</label>
+                        <input class="proj radius radius1 error" type="text" id="url-project" placeholder="Добавте ссылку">
+                        <div class="error-block">ссылка на проект</div>
+                    </div>
+                    <div class="error-box">
+                        <label id="label-description-project" class="label-form" for="description-project" >Описание</label>
+                        <textarea name="description" id="description-project" class="description-project radius radius1 error" placeholder="Пара слов о Вашем проекте"></textarea>
+                        <div class="error-block">описание проекта</div>
+                    </div>
+                    <button class="green-button radius radius1">Добавить</button>
+
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
 
 
 <script src="bower/jquery/jquery.js"></script>
-<script src="js/main.js">
+<script src="./js/main.js">
 </script>
 </body>
 </html>

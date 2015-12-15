@@ -137,8 +137,6 @@ textarea{
     font-size: 12px;
     font-family: 'open_sanslight';
 }
-/**textarea:-moz-placeholder { color: red; }
 
-¬ Safari и Chrome стиль текста мен€етс€ следующим образом:
 
-textarea::-webkit-input-placeholder { color: red; }/**
+
