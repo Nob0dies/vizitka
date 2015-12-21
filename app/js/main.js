@@ -1,17 +1,61 @@
-$(document).ready(function(){
-    PopUpHide();
-    UploadTextUpdate();
-});
-function PopUpShow(){
-    $(".popup-add").show();
-}
-function PopUpHide(){
-    $(".popup-add").hide();
-}
-function UploadTextUpdate()
-{
-    $("#img-proj").change( function( e ) {
-        console.log(e);
-        $('div.input').html(this.value);
-    } );
-}
+var myModule = (function () {
+    var init = function () {
+        _setUpLisners()
+    };
+    var _setUpLisners = function () {
+
+        $(".feedback").submit(_addFeedback);
+        $(".input").live("keyup", function () {
+            if ($(this).val() !== "") {
+                $(this).closest(".input-group").removeClass("error-box");
+            } else {
+                $(this).closest(".input-group").addClass("error-box");
+            }
+        });
+
+
+    };
+
+
+    var _hideErrors = function () {
+        $(".input-group").removeClass('error-box');
+    };
+    var _showErrors = function (errors) {
+        for (var i = 0; i < errors.length; i++) {
+            $(".input-group").has('[name="' + errors[i] + '"]').addClass("error-box");
+
+        }
+    };
+    var _addFeedback = function (event) {
+        event.preventDefault();
+
+        var form = $(this),
+            data = form.serialize(),
+            url = "feedback.php";
+        console.log(data);
+
+        $.ajax({
+            url: url,
+            type: "POST",
+            dataType: "json",
+            data: data
+        })
+            .done(function (ans) {
+                console.log(ans);
+                _hideErrors();
+                if (ans.errors.length > 0) {
+                    _showErrors(ans.errors);
+                }
+            })
+            .fail(function () {
+                console.log("error")
+
+            });
+
+    };
+    return {
+        init: init
+    }
+
+})();
+myModule.init();

@@ -1,19 +1,15 @@
 .popup-add{
-    width:100%;
-    min-height:100%;
-    background-color: rgba(0,0,0,0.8);
-    overflow:hidden;
-    position:fixed;
-    top:0px;
+
     display: none;
 }
 .form-add-project{
     padding-left: 5px;
+    height: auto;
 }
 .popup-add .popup-content{
     margin:auto ;
     width:354px;
-    height: 445px;
+    height: 100%;
     background: rgb(248,247,246);
     background: -moz-linear-gradient(top,  rgb(248,247,246) 0%, rgb(240,238,237) 99%);
     background: -webkit-linear-gradient(top,  rgb(248,247,246) 0%,rgb(240,238,237) 99%);
@@ -29,7 +25,7 @@
 }
 .popup-header {
     margin: auto;
-    margin-top: 80px;
+    margin-top: 20px;
     width: 366px;
 
 }
@@ -89,11 +85,12 @@ label.uploadbutton {
     background: -webkit-linear-gradient(top,  rgb(252,251,250) 0%,rgb(229,227,226) 100%);
     background: linear-gradient(to bottom,  rgb(252,251,250) 0%,rgb(229,227,226) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfbfa', endColorstr='#e5e3e2',GradientType=0 );
-   margin-top: 9px;
+    margin-top: 9px;
     padding-left:5px;
     margin-buttom:5px;
 
 }
+
 
 label.uploadbutton input {
     display: none;
@@ -205,16 +202,14 @@ input::-webkit-input-placeholder {
 }
 
 /**test**/
-.error-block{
+.error-block {
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
     font-family: 'open_sanssemibold';
     font-size: 11px;
-    text-transform: uppercase;
     margin: 0 0 10px 16px;
     display: inline-block;
-    background: url(../img/error-center.png) ;
+    background: url(../img/error-center.png);
     background-repeat: repeat-x;
-    font-family: OpenSans-Semibold;
     color: #822301;
     line-height: 27px;
     text-align: center;
@@ -223,8 +218,7 @@ input::-webkit-input-placeholder {
     position: absolute;
     right: 341px;
     top: 50%;
-    margin-top: 0px;
-    display:none;
+    display: none;
 }
 .error-block:before {
     content: url(../img/error2.png);
@@ -241,10 +235,50 @@ input::-webkit-input-placeholder {
     position: relative;
 }
 
-.error-box .error-block{
-    display: block;
+.error-box .error-block {
+    display:block;
 }
 
-.error-box input,textarea,.uploadbutton {
+.error-box textarea,
+.error-box input,
+.error-box .uploadbutton {
     border: 1px solid #e0ad99 !important;
+}
+.error-add{
+    width: 313px;
+    background: #e9c8bc;
+    color:#cd7150;
+    border: 1px solid #cd7150 ;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'open_sansregular';
+    font-size: 14px;
+    display: none;
+
+}
+.success{
+    background:#f7f6f6 ;
+    border: 1px solid #d2d2d2 ;
+    position: absolute;
+    z-index: 4;
+    top:230px;
+    padding: 3px;
+    display: none;
+
+
+}
+.success-text{
+    width: 313px;
+    background:#bde2cc ;
+    color:#49bb7b;
+    border: 1px solid #49bb7b ;
+    margin: 17px;
+    padding: 5px;
+}
+.close-error{
+    background: url("../img/closesuc.png") no-repeat;
+    border: none;
+    float: right;
+    padding: 5px;
 }

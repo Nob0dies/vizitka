@@ -44,7 +44,7 @@
                 <li><a class="vkladki__item  radius" href="index.html">
                     <h3 class="text_vkladki">Обо мне</h3>
                 </a></li>
-                <li><a class="vkladki__item " href="index2.html">
+                <li><a class="vkladki__item " href="index_pop.html">
                     <h3 class="text_vkladki">Мои Работы</h3></a></li>
                 <li><a class="vkladki__item radius1 vkladki__item-active" href="#">
                     <h3 class="text_vkladki">Обратная связь</h3></a></li>
@@ -73,37 +73,42 @@
         <section class="content">
             <article class="block radius1 radius">
                 <div class="shapka radius">
-                    <h2 class="shaka_h" >У вас интересный проэкт? Напишите мне</h2>
+                    <h2 class="shaka_h" >У вас интересный проект? Напишите мне</h2>
                 </div>
                 <div class="center">
-                    <form name="obratnaia_sviaz" action="#">
-                        <div class="input">
+                    <form name="obratnaia_sviaz" class="feedback " action="#">
+                        <div class="input-group name-inp  ">
                             <label class="form-name" for="name">Имя</label>
-                            <input class="name_mail style " type="text" id="name" placeholder="Как к Вам обращаться">
+                            <input name="name" class="name_mail style block-left input" type="text" id="name" placeholder="Как к Вам обращаться">
+                            <div class="error-block-left error-block">введите имя</div>
                         </div>
-                        <div class="input marg">
+                        <div class="input-group marg ">
                             <label class="form-mail" for="mail">Email</label>
-                            <input class="name_mail style " type="text" id="mail" placeholder="Куда мне писать">
+                            <input name="mail" class="name_mail style block-right input" type="text" id="mail" placeholder="Куда мне писать">
+                            <div class="error-block-right error-block">введите email</div>
+
                         </div>
-                        <div class="input massage_inp">
+                        <div class="input-group massage_inp ">
                             <label class="form-massage" for="massage"> Сообщение</label>
-                            <textarea name="massage" id="massage" class="massage style" placeholder="Кратко в чем суть"></textarea>
+                            <textarea name="massage" id="massage" class="massage style block-left input" placeholder="Кратко в чем суть"></textarea>
+                            <div class="error-block-left error-block">ваш вопрос</div>
                         </div>
-                        <div class="input_kap4a">
+                        <div class="input_kap4a ">
                             <label class="form-cod" for="cod">Введите код,указанный на картинке</label>
 
-                            <div class="input_bot ">
+                            <div class="  input_bot ">
                                 <img class="img_kap4a" src="./img/captcha.png" alt="Капча">
                             </div>
-                            <div class="input_bot">
-                                <input class="kod style" type="text" id="cod" placeholder="Введите код">
+                            <div class="input-group input_bot">
+                                <input name="cod" class="kod style block-right input" type="text" id="cod" placeholder="Введите код">
+                                <div class="error-block-right error-block">код капчи</div>
+
                             </div>
-                            <div class="input"></div>
                         </div>
-                        <div class="input button ">
+                        <div class="button ">
                             <button class="submit style" type="submit" value="Отправить">Отправить</button>
                         </div>
-                        <div class="input button ">
+                        <div class="button ">
                             <button class="reset style" type="reset" value="Очистить">Очистить</button>
                         </div>
 

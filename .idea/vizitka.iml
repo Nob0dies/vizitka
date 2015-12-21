@@ -7,5 +7,29 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP">
+        <CLASSES>
+          <root url="file://D:/server/OpenServer/modules/php/PHP-5.5" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://D:/server/OpenServer/modules/php/PHP-5.5" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://D:/server/OpenServer/modules/php/PHP-5.5/composer.phar" />
+          <root url="phar://D:/server/OpenServer/modules/php/PHP-5.5/pharcommand.phar" />
+          <root url="phar://D:/server/OpenServer/modules/php/PHP-5.5/PEAR/go-pear.phar" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://D:/server/OpenServer/modules/php/PHP-5.5/composer.phar" />
+          <root url="phar://D:/server/OpenServer/modules/php/PHP-5.5/pharcommand.phar" />
+          <root url="phar://D:/server/OpenServer/modules/php/PHP-5.5/PEAR/go-pear.phar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

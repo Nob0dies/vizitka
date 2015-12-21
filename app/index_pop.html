@@ -55,13 +55,18 @@
                 <ul class="spisok">
                     <li class="kont radius"><h3 class="kont_text">Контакты</h3></li>
                     <li><a class="mail " href="mailto:femida1990@mail.ru">
-                        <img class="strelki" src="./img/mail.png" alt="decorate">
-                        <p class="dannue">Femida1990@mail.ru</p></a></li>
-                    <li><a class="kontaktu_item" href="skype:+380971364584?call"><img class="strelki" src="./img/phone.png" alt="decorate">
 
-                        <p class="dannue"> +380971364584</p></a></li>
+                        <div class="strelki-mail" ></div>
+
+                        <p class="dannue ">Femida1990@mail.ru</p></a></li>
+                    <li><a class="kontaktu_item " href="skype:+380971364584?call">
+                        <div class="strelki-phone" ></div>
+
+                        <p class="dannue">+380971364584</p></a></li>
                     <li><a class="kontaktu_item radius1" href="skype:nobodies235?call">
-                        <img class="strelki" src="./img/skype.png" alt="decorate"><p class="dannue"> nobodies235</p></a></li>
+                        <div class="strelki-skype" ></div>
+
+                        <p class="dannue">nobodies235</p></a></li>
                 </ul>
             </div>
         </aside>
@@ -124,7 +129,7 @@
                         <li  class="thumb_dobavit radius radius1">
                             <div class="img-container">
                                 <div class="dobavit"></div>
-                                <a target="_blank" class="img-caption top-bottom" href="javascript:PopUpShow()"><h4 class="add-proj-img">Добавить проект</h4></a>
+                                <a target="_blank" id="showPopup" class="img-caption top-bottom" href="#"><h4 class="add-proj-img">Добавить проект</h4></a>
 
                             </div>
                             <div class="img-caption top-bottom"></div>
@@ -147,41 +152,61 @@
     </div>
 </footer>
 <div class="popup-add">
+    <div class="success radius radius1">
+        <button tupe=reset class="button-close"></button>
+        <div class="success-text radius radius1">
+            <h3>Ура!</h3>
+            Проект успешно добавлен.
+
+        </div>
+    </div>
     <div class="popup-header">
         <h5 class="header-text">Добавление проекта</h5>
         <div class="popup-content">
-            <a href="javascript:PopUpHide()">  <button class="button-close"></button></a>
+
+             <button class="button-close b-close"></button>
             <div class="form-center">
-                <form class="form-add-project">
-                    <div class="error-box"><label id="label-name-project" class="label-form" for="name-project" >Название проекта</label>
-                            <input class="proj radius radius1 error" type="text" id="name-project" placeholder="Введите название">
-                            <div class="error-block">введите название</div>
+                <form class="form-add-project" name="form-add-project" enctype="multipart/form-data">
+                    <div class="error-add radius radius1">
+                        <button class="close-error"></button>
+                        <h3>Ошибка!</h3>
+                        Невозможно добавить проект.
+                    </div>
+                    <div class="input-group">
+                        <label id="label-name-project" class="label-form" for="name-project" >Название проекта</label>
+                        <input name="name-proj" class="input proj radius radius1 error" type="text" id="name-project" placeholder="Введите название">
+                        <div class="error-block">введите название</div>
             </div>
-                        <div class="error-box">
+                        <div class="input-group">
                             <label id="label-img-project" class="label-form" for="img-proj" >Картинка проекта</label>
                             <label class="uploadbutton error">
                                 <div class="inp-img-conteiner">
-                                    <div class="input inp-img" ><span class="inp-img-file">Выберите файл</span></div>
+                                    <div class="input inp-img" ><span class="inp-img-file ">Выберите файл</span></div>
                                 </div>
 
                                 <div class="button">&nbsp;</div>
 
-                                <input type="file" id="img-proj" />
+                                <input type="file" id="img-proj" name="cover_image"  />
 
                             </label>
                             <div class="error-block">изображение</div>
                         </div>
-                        <div class="error-box">
+
+
+
+
+
+                        <div class="input-group">
                             <label id="label-url-project" class="label-form" for="url-project" >URL проекта</label>
-                            <input class="proj radius radius1 error" type="text" id="url-project" placeholder="Добавте ссылку">
+                            <input name="project_url" class="input proj radius radius1 error" type="text" id="url-project" placeholder="Добавте ссылку">
                             <div class="error-block">ссылка на проект</div>
                         </div>
-                        <div class="error-box">
+                        <div class="input-group">
                             <label id="label-description-project" class="label-form" for="description-project" >Описание</label>
-                            <textarea name="description" id="description-project" class="description-project radius radius1 error" placeholder="Пара слов о Вашем проекте"></textarea>
+                            <textarea name="description" id="description-project" class="input description-project radius radius1 error" placeholder="Пара слов о Вашем проекте"></textarea>
                             <div class="error-block">описание проекта</div>
                         </div>
-                    <button class="green-button radius radius1">Добавить</button>
+                    <button type="submit" class="green-button radius radius1">Добавить</button>
 
                 </form>
 
@@ -194,6 +219,8 @@
 
 
 <script src="bower/jquery/jquery.js"></script>
+<script src="bower/bPopup/jquery.bpopup.min.js"></script>
 <script src="./js/popup.js"></script>
+
 </body>
 </html>
