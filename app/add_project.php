@@ -14,28 +14,24 @@ require_once("Form.php");
  */
 
 $inputs = array(
-    [
+    array(
         "name" => "name-proj",
         "required" => true,
-    ],
-    [
+    ),
+    array(
         "name" => "project_url",
         "required" => true,
-    ],
-    [
+    ),
+    array(
         "name" => "description",
         "required" => true,
-    ],
-    [
+    ),
+    array(
         "name" => "cover_image",
         "required" => true,
         "type" => "file"
-    ]
+    )
 );
 
 $form = new Form( $inputs );
 $form->sendAjaxResponse();
-echo json_encode(array(
-    $_FILES['cover_image']['error'],
-    $_FILES['cover_image']['size'],
-));

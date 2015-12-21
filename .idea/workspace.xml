@@ -1,71 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7d25421-a18a-41cc-b6af-3fd039ebbf96" name="Default" comment="Модальное окно&#10;Ошибки валидации&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/MM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/arrow2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/captcha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/closesuc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/error-center.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/error1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/error2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/error3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/error4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/facebook1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/fsto.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/github1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/gotfric.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/iks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/kofta.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/opensans-light-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/opensans-light-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/opensans-light-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/opensans-regular-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/opensans-regular-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/opensans-regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/opensans-semibold-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/opensans-semibold-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/opensans-semibold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/spritesheet (1).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/spritesheet (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/spritesheet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/tera.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/twitter1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/vk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/vk1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/add_project.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/feedback.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/founts_stille.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/generator_config.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/specimen_files/grid_12-825-55-15.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/opensans-light-demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/opensans-light-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/opensans-regular-demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/opensans-regular-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/opensans-semibold-demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/opensans-semibold-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/founts/specimen_files/specimen_stylesheet.css" />
-      <change type="DELETED" beforePath="C:\Users\evgonchar\Downloads\vizitka\app\exit.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\evgonchar\Downloads\vizitka\app\img\Слой-39.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\evgonchar\Downloads\vizitka\app\index2.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index3.html" afterPath="$PROJECT_DIR$/app/index3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index_pop.html" afterPath="$PROJECT_DIR$/app/index_pop.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/main.js" afterPath="$PROJECT_DIR$/app/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main2.css" afterPath="$PROJECT_DIR$/app/css/main2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main3.css" afterPath="$PROJECT_DIR$/app/css/main3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main_pop.css" afterPath="$PROJECT_DIR$/app/css/main_pop.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/popup.js" afterPath="$PROJECT_DIR$/app/js/popup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vizitka.iml" afterPath="$PROJECT_DIR$/.idea/vizitka.iml" />
+    <list default="true" id="b7d25421-a18a-41cc-b6af-3fd039ebbf96" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/add_project.php" afterPath="$PROJECT_DIR$/app/add_project.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/feedback.php" afterPath="$PROJECT_DIR$/app/feedback.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vizitka.iws" />
@@ -88,47 +27,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="popup.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/popup.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.9310346">
-              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-              <folding>
-                <element signature="e#28#55#0" expanded="false" />
-                <element signature="n#!!block;n#UploadTextUpdate#0" expanded="false" />
-                <element signature="e#130#203#0" expanded="false" />
-                <element signature="e#240#297#0" expanded="false" />
-                <element signature="e#321#352#0" expanded="false" />
-                <element signature="e#359#427#0" expanded="false" />
-                <element signature="e#460#1864#0" expanded="false" />
-                <element signature="e#726#803#0" expanded="false" />
-                <element signature="e#936#1377#0" expanded="false" />
-                <element signature="e#951#993#0" expanded="false" />
-                <element signature="e#1227#1276#0" expanded="false" />
-                <element signature="e#1282#1367#0" expanded="false" />
-                <element signature="e#1389#1435#0" expanded="false" />
-                <element signature="e#1554#1687#0" expanded="false" />
-                <element signature="e#1735#1856#0" expanded="false" />
-                <element signature="e#1793#1846#0" expanded="false" />
-                <element signature="e#2002#2072#0" expanded="false" />
-                <element signature="e#2117#2206#0" expanded="false" />
-                <element signature="e#2268#2318#0" expanded="false" />
-                <element signature="e#2324#2494#0" expanded="false" />
-                <element signature="e#2378#2484#0" expanded="false" />
-                <element signature="e#2540#2585#0" expanded="false" />
-                <element signature="e#2624#2663#0" expanded="false" />
-                <element signature="e#2704#2747#0" expanded="false" />
-                <element signature="e#2789#2832#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="6" column="20" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_project.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/add_project.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feedback.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/feedback.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6386404">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -210,11 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_pop.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index_pop.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index_pop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7169811">
-              <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+            <state vertical-scroll-proportion="-0.4181818">
+              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -270,9 +213,7 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/app/css/main3.css" />
         <option value="$PROJECT_DIR$/app/js/main.js" />
-        <option value="$PROJECT_DIR$/app/feedback.php" />
         <option value="$PROJECT_DIR$/app/css/main_pop.css" />
-        <option value="$PROJECT_DIR$/app/add_project.php" />
         <option value="$PROJECT_DIR$/app/Form.php" />
         <option value="$PROJECT_DIR$/app/js/popup.js" />
         <option value="$PROJECT_DIR$/app/index_pop.html" />
@@ -280,6 +221,9 @@
         <option value="$PROJECT_DIR$/app/css/main2.css" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/index3.html" />
+        <option value="$PROJECT_DIR$/app/.htaccess" />
+        <option value="$PROJECT_DIR$/app/add_project.php" />
+        <option value="$PROJECT_DIR$/app/feedback.php" />
       </list>
     </option>
   </component>
@@ -418,60 +362,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vizitka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vizitka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vizitka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vizitka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="founts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vizitka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vizitka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -640,7 +530,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450050695362</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Завершение первого этапа&#10;">
+      <created>1450688248117</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1450688248117</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -657,6 +553,7 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -670,7 +567,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39906833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -722,7 +618,8 @@
     <MESSAGE value="Исправила стрелочки со скилами." />
     <MESSAGE value="Исправила ошибки" />
     <MESSAGE value="Модальное окно&#10;Ошибки валидации&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Модальное окно&#10;Ошибки валидации&#10;" />
+    <MESSAGE value="Завершение первого этапа&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Завершение первого этапа&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1189,24 +1086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/feedback.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.769231">
@@ -1246,14 +1125,6 @@
             <element signature="e#2704#2747#0" expanded="false" />
             <element signature="e#2789#2832#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/add_project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.923077">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,8 +1222,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index_pop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7169811">
-          <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+        <state vertical-scroll-proportion="-0.4181818">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/add_project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feedback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6386404">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding />
         </state>
       </provider>
