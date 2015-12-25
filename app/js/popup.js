@@ -12,6 +12,8 @@ function UploadTextUpdate()
 }
 
 var myModule=(function(){
+    var inputFileName="cover_image";
+    var inputFileSelector="#img-proj";
     /**
      * функцмя, которая инициализирует объект
      */
@@ -84,7 +86,11 @@ var myModule=(function(){
             box.addClass("error-box");
         } else {
             for(var i = 0; i < errors.length; i++ ) {
-                $(".input-group").has('[name="' + errors[i] + '"]').addClass("error-box");
+                if(errors[i]===inputFileName){
+                    $(".input-group").has(inputFileSelector).addClass("error-box");
+                }else{
+                    $(".input-group").has('[name="' + errors[i] + '"]').addClass("error-box");
+                }
             }
         }
     };
@@ -105,11 +111,18 @@ var myModule=(function(){
         $('.success').hide('fast');
     };
 
+    var _parseForm = function() {
+        var $inputImg = $(inputFileSelector);
+        var fd = new FormData($('form[name="form-add-project"]')[0]);
+        fd.append(inputFileName, $inputImg.prop('files')[0]);
+       return fd;
+    }
+
     var _addProject=function(event){
         event.preventDefault();
 
         var url="add_project.php";
-        var formData = new FormData($('form[name="form-add-project"]')[0]);
+        var formData = _parseForm();
 
         $.ajax({
             url:url,

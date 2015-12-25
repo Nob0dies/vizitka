@@ -12,9 +12,13 @@ var myModule = (function () {
                 $(this).closest(".input-group").addClass("error-box");
             }
         });
+        $(".reset").click(_hideErrors);
+
+
 
 
     };
+
 
 
     var _hideErrors = function () {
