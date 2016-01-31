@@ -1,0 +1,164 @@
+//
+   Created by evgonchar on 30.01.2016.
+
+doctype html
+html(lang='ru-RU')
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta( name="viewport" content="width=device-width  initial-scale=1  maximum-scale=1")
+        title Обратная связь
+        link(rel='icon', href='favicon.ico')
+        // CSS
+        link(rel='stylesheet', href='bower/normalize-css/normalize.css')
+        link(rel='stylesheet', href='css/mainobwii.css')
+        link(rel='stylesheet', href='css/main3.css')
+        link(rel='stylesheet',href='css/refactor.css')
+        link(rel='stylesheet',href='css/pad_main.css')
+        link(rel='stylesheet',href='css/cell_main.css')
+
+    body
+        .wrapper
+            header.header
+                .heder_block
+                    .logo
+                        a(href='#')
+                            img(src='./img/logo.png', alt='logo')
+                            h1.logo_loftschool Loftschool
+                    .socseti
+                        ul.icons
+                            li
+                                a.sprite.sprite-facebook(href='https://uk-ua.facebook.com/')
+                                    span(style='position:absolute;left:-9999px;') Facebook
+                            li
+                                a.sprite.sprite-vk(href='https://vk.com/nob0dies')
+                                    span(style='position:absolute;left:-9999px;') Вконтакте
+                            li
+                                a.sprite.sprite-twitter(href='https://twitter.com/?lang=ru')
+                                    span(style='position:absolute;left:-9999px;') Tvitter
+                            li
+                                a.sprite.sprite-github(href='https://github.com/Nob0dies')
+                                    span(style='position:absolute;left:-9999px;') GitHub
+                            li
+                                button.menu_button
+                                    img(src="./img/menu.png")
+
+                                ul.vkladki.vkladki_pad
+                                    li
+                                        a.vkladki__item.vkladki__item-active.radius(href='index.html')
+                                            h3.text_vkladki Обо мне
+                                    li
+                                        a.vkladki__item(href='index_pop.html')
+                                            h3.text_vkladki Мои Работы
+                                    li
+                                        a.vkladki__item.radius1(href='#')
+                                            h3.text_vkladki Обратная связь
+                        a.locked.locked_cell(href="exit.html")
+                            span.exit Вход
+                        button.menu_button.menu_button_cell
+                            img(src="./img/menu.png")
+                        ul.vkladki.vkladki_pad
+                            li
+                                a.vkladki__item.vkladki__item-active.radius(href='#')
+                                    h3.text_vkladki Обо мне
+                            li
+                                a.vkladki__item(href='index_pop.html')
+                                    h3.text_vkladki Мои Работы
+                            li
+                                a.vkladki__item.radius1(href='index3.html')
+                                    h3.text_vkladki Обратная связь
+
+
+
+            .conteiner.clearfix
+                aside.knopki
+                    ul.vkladki
+                        li
+                            a.vkladki__item.radius(href='index.html')
+                                h3.text_vkladki Обо мне
+                        li
+                            a.vkladki__item(href='index_pop.html')
+                                h3.text_vkladki Мои Работы
+                        li
+                            a.vkladki__item.radius1.vkladki__item-active(href='#')
+                                h3.text_vkladki Обратная связь
+                    .kontaktu
+                        ul.spisok
+                            li.kont.radius
+                                h3.kont_text Контакты
+                            li
+                                a.mail(href='mailto:femida1990@mail.ru')
+                                    .strelki-mail
+                                    p.dannue Femida1990@mail.ru
+                            li
+                                a.kontaktu_item(href='skype:+380971364584?call')
+                                    .strelki-phone
+                                    p.dannue +380971364584
+                            li
+                                a.kontaktu_item.radius1(href='skype:nobodies235?call')
+                                    .strelki-skype
+                                    p.dannue nobodies235
+                section.content
+                    article.block.radius1.radius
+                        .shapka.radius
+                            h2.shaka_h У вас интересный проект? Напишите мне
+                        .center
+                            form.feedback(name='obratnaia_sviaz', action='#')
+                                .input-group.name-inp
+                                    label.form-name(for='name') Имя
+                                    input#name.name_mail.style.block-left.input(name='name', type='text', placeholder='Как к Вам обращаться')
+                                    .error-block-left.error-block введите имя
+                                .input-group.marg
+                                    label.form-mail(for='mail') Email
+                                    input#mail.name_mail.style.block-right.input(name='mail', type='text', placeholder='Куда мне писать')
+                                    .error-block-right.error-block введите email
+                                .input-group.massage_inp
+                                    label.form-massage(for='massage')  Сообщение
+                                    textarea#massage.massage.style.block-left.input(name='massage', placeholder='Кратко в чем суть')
+                                    .error-block-left.error-block ваш вопрос
+                                .input_kap4a
+                                    label.form-cod(for='cod') Введите код,указанный на картинке
+                                    .input_bot
+                                        img.img_kap4a(src='./img/captcha.png', alt='Капча')
+                                    .input-group.input_bot
+                                        input#cod.kod.style.block-right.input(name='cod', type='text', placeholder='Введите код')
+                                        .error-block-right.error-block код капчи
+                                .button
+                                    button.submit.style(type='submit', value='Отправить') Отправить
+                                .button
+                                    button.reset.style(type='reset', value='Очистить') Очистить
+                    .kontaktu.kontaktu_pad
+                        ul.spisok.spisok_pad
+                            li
+                                a.mail(href='mailto:femida1990@mail.ru')
+                                    .strelki-mail
+                                    p.dannue Femida1990@mail.ru
+                            li
+                                a.kontaktu_item(href='skype:+380971364584?call')
+                                    .strelki-phone
+                                    p.dannue +380971364584
+                            li
+                                a.kontaktu_item(href='skype:nobodies235?call')
+                                    .strelki-skype
+                                    p.dannue nobodies235
+                    ul.icons.icons_cell
+                        li
+                            a.sprite.sprite-facebook(href='https://uk-ua.facebook.com/')
+                                span(style='position:absolute;left:-9999px;') Facebook
+                        li
+                            a.sprite.sprite-vk(href='https://vk.com/nob0dies')
+                                span(style='position:absolute;left:-9999px;') Вконтакте
+                        li
+                            a.sprite.sprite-twitter(href='https://twitter.com/?lang=ru')
+                                span(style='position:absolute;left:-9999px;') Tvitter
+                        li
+                            a.sprite.sprite-github(href='https://github.com/Nob0dies')
+                                span(style='position:absolute;left:-9999px;') GitHub
+        footer.footer
+            .cont_footer
+                a.locked(href="exit.html")
+                span.exit Вход
+                span.prava
+                    | ©2015. Это мой сайт,пожалуйста,не копируйте и не воруйте его!
+        script(src='bower/jquery/jquery.js')
+        script(src='js/main.js')

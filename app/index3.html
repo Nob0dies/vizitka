@@ -1,136 +1,151 @@
-<!DOCTYPE html>
+
+<!--
+Created by evgonchar on 30.01.2016.
+
+--><!DOCTYPE html>
 <html lang="ru-RU">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width  initial-scale=1  maximum-scale=1">
     <title>Обратная связь</title>
-    <link rel="icon" href="favicon.ico" >
-     <!-- CSS -->
+    <link rel="icon" href="favicon.ico">
+    <!-- CSS-->
     <link rel="stylesheet" href="bower/normalize-css/normalize.css">
     <link rel="stylesheet" href="css/mainobwii.css">
     <link rel="stylesheet" href="css/main3.css">
-    <script src="bower/modernizr/modernizr.js"></script>
-</head>
-<body>
-<div class="wrapper">
-    <header class="header">
+    <link rel="stylesheet" href="css/refactor.css">
+    <link rel="stylesheet" href="css/pad_main.css">
+    <link rel="stylesheet" href="css/cell_main.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
         <div class="heder_block">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="./img/logo.png" alt="logo">
-                    <h1 class="logo_loftschool" >Loftschool</h1>
-                </a>
-            </div>
-            <div class="socseti">
-                <ul class="icons">
-                    <li><a class="sprite sprite-facebook " href="https://uk-ua.facebook.com/">
-                        <span style="position:absolute;left:-9999px;">Facebook</span></a></li>
-                    <li><a class="sprite sprite-vk" href="https://vk.com/nob0dies">
-                        <span style="position:absolute;left:-9999px;">Вконтакте</span>
-                    </a></li>
-                    <li><a class="sprite sprite-twitter" href="https://twitter.com/?lang=ru">
-                        <span style="position:absolute;left:-9999px;">Tvitter</span>
-                    </a></li>
-                    <li><a class="sprite sprite-github" href="https://github.com/Nob0dies">
-                        <span style="position:absolute;left:-9999px;">GitHub</span>
-                    </a></li>
+          <div class="logo"><a href="#"><img src="./img/logo.png" alt="logo">
+              <h1 class="logo_loftschool">Loftschool</h1></a></div>
+          <div class="socseti">
+            <ul class="icons">
+              <li><a href="https://uk-ua.facebook.com/" class="sprite sprite-facebook"><span style="position:absolute;left:-9999px;">Facebook</span></a></li>
+              <li><a href="https://vk.com/nob0dies" class="sprite sprite-vk"><span style="position:absolute;left:-9999px;">Вконтакте</span></a></li>
+              <li><a href="https://twitter.com/?lang=ru" class="sprite sprite-twitter"><span style="position:absolute;left:-9999px;">Tvitter</span></a></li>
+              <li><a href="https://github.com/Nob0dies" class="sprite sprite-github"><span style="position:absolute;left:-9999px;">GitHub</span></a></li>
+              <li>
+                <button class="menu_button"><img src="./img/menu.png"></button>
+                <ul class="vkladki vkladki_pad">
+                  <li><a href="index.html" class="vkladki__item vkladki__item-active radius">
+                      <h3 class="text_vkladki">Обо мне</h3></a></li>
+                  <li><a href="index_pop.html" class="vkladki__item">
+                      <h3 class="text_vkladki">Мои Работы</h3></a></li>
+                  <li><a href="#" class="vkladki__item radius1">
+                      <h3 class="text_vkladki">Обратная связь</h3></a></li>
                 </ul>
-            </div>
-        </div>
-    </header>
-    <div class="conteiner clearfix">
-        <aside class="knopki">
-            <ul class="vkladki">
-                <li><a class="vkladki__item  radius" href="index.html">
-                    <h3 class="text_vkladki">Обо мне</h3>
-                </a></li>
-                <li><a class="vkladki__item " href="index_pop.html">
-                    <h3 class="text_vkladki">Мои Работы</h3></a></li>
-                <li><a class="vkladki__item radius1 vkladki__item-active" href="#">
-                    <h3 class="text_vkladki">Обратная связь</h3></a></li>
+              </li>
+            </ul><a href="exit.html" class="locked locked_cell"><span class="exit">Вход</span></a>
+            <button class="menu_button menu_button_cell"><img src="./img/menu.png"></button>
+            <ul class="vkladki vkladki_pad">
+              <li><a href="#" class="vkladki__item vkladki__item-active radius">
+                  <h3 class="text_vkladki">Обо мне</h3></a></li>
+              <li><a href="index_pop.html" class="vkladki__item">
+                  <h3 class="text_vkladki">Мои Работы</h3></a></li>
+              <li><a href="index3.html" class="vkladki__item radius1">
+                  <h3 class="text_vkladki">Обратная связь</h3></a></li>
             </ul>
-            <div class="kontaktu">
-                <ul class="spisok">
-                    <li class="kont radius"><h3 class="kont_text">Контакты</h3></li>
-                    <li><a class="mail " href="mailto:femida1990@mail.ru">
-
-                        <div class="strelki-mail" ></div>
-
-                        <p class="dannue ">Femida1990@mail.ru</p></a></li>
-                    <li><a class="kontaktu_item " href="skype:+380971364584?call">
-                        <div class="strelki-phone" ></div>
-
-                        <p class="dannue">+380971364584</p></a></li>
-                    <li><a class="kontaktu_item radius1" href="skype:nobodies235?call">
-                        <div class="strelki-skype" ></div>
-
-                        <p class="dannue">nobodies235</p></a></li>
-                </ul>
-            </div>
+          </div>
+        </div>
+      </header>
+      <div class="conteiner clearfix">
+        <aside class="knopki">
+          <ul class="vkladki">
+            <li><a href="index.html" class="vkladki__item radius">
+                <h3 class="text_vkladki">Обо мне</h3></a></li>
+            <li><a href="index_pop.html" class="vkladki__item">
+                <h3 class="text_vkladki">Мои Работы</h3></a></li>
+            <li><a href="#" class="vkladki__item radius1 vkladki__item-active">
+                <h3 class="text_vkladki">Обратная связь</h3></a></li>
+          </ul>
+          <div class="kontaktu">
+            <ul class="spisok">
+              <li class="kont radius">
+                <h3 class="kont_text">Контакты</h3>
+              </li>
+              <li><a href="mailto:femida1990@mail.ru" class="mail">
+                  <div class="strelki-mail"></div>
+                  <p class="dannue">Femida1990@mail.ru</p></a></li>
+              <li><a href="skype:+380971364584?call" class="kontaktu_item">
+                  <div class="strelki-phone"></div>
+                  <p class="dannue">+380971364584</p></a></li>
+              <li><a href="skype:nobodies235?call" class="kontaktu_item radius1">
+                  <div class="strelki-skype"></div>
+                  <p class="dannue">nobodies235</p></a></li>
+            </ul>
+          </div>
         </aside>
-
-
         <section class="content">
-            <article class="block radius1 radius">
-                <div class="shapka radius">
-                    <h2 class="shaka_h" >У вас интересный проект? Напишите мне</h2>
+          <article class="block radius1 radius">
+            <div class="shapka radius">
+              <h2 class="shaka_h">У вас интересный проект? Напишите мне</h2>
+            </div>
+            <div class="center">
+              <form name="obratnaia_sviaz" action="#" class="feedback">
+                <div class="input-group name-inp">
+                  <label for="name" class="form-name">Имя</label>
+                  <input id="name" name="name" type="text" placeholder="Как к Вам обращаться" class="name_mail style block-left input">
+                  <div class="error-block-left error-block">введите имя</div>
                 </div>
-                <div class="center">
-                    <form name="obratnaia_sviaz" class="feedback " action="#">
-                        <div class="input-group name-inp  ">
-                            <label class="form-name" for="name">Имя</label>
-                            <input name="name" class="name_mail style block-left input" type="text" id="name" placeholder="Как к Вам обращаться">
-                            <div class="error-block-left error-block">введите имя</div>
-                        </div>
-                        <div class="input-group marg ">
-                            <label class="form-mail" for="mail">Email</label>
-                            <input name="mail" class="name_mail style block-right input" type="text" id="mail" placeholder="Куда мне писать">
-                            <div class="error-block-right error-block">введите email</div>
-
-                        </div>
-                        <div class="input-group massage_inp ">
-                            <label class="form-massage" for="massage"> Сообщение</label>
-                            <textarea name="massage" id="massage" class="massage style block-left input" placeholder="Кратко в чем суть"></textarea>
-                            <div class="error-block-left error-block">ваш вопрос</div>
-                        </div>
-                        <div class="input_kap4a ">
-                            <label class="form-cod" for="cod">Введите код,указанный на картинке</label>
-
-                            <div class="  input_bot ">
-                                <img class="img_kap4a" src="./img/captcha.png" alt="Капча">
-                            </div>
-                            <div class="input-group input_bot">
-                                <input name="cod" class="kod style block-right input" type="text" id="cod" placeholder="Введите код">
-                                <div class="error-block-right error-block">код капчи</div>
-
-                            </div>
-                        </div>
-                        <div class="button ">
-                            <button class="submit style" type="submit" value="Отправить">Отправить</button>
-                        </div>
-                        <div class="button ">
-                            <button class="reset style" type="reset" value="Очистить">Очистить</button>
-                        </div>
-
-                    </form>
+                <div class="input-group marg">
+                  <label for="mail" class="form-mail">Email</label>
+                  <input id="mail" name="mail" type="text" placeholder="Куда мне писать" class="name_mail style block-right input">
+                  <div class="error-block-right error-block">введите email</div>
                 </div>
-            </article>
+                <div class="input-group massage_inp">
+                  <label for="massage" class="form-massage"> Сообщение</label>
+                  <textarea id="massage" name="massage" placeholder="Кратко в чем суть" class="massage style block-left input"></textarea>
+                  <div class="error-block-left error-block">ваш вопрос</div>
+                </div>
+                <div class="input_kap4a">
+                  <label for="cod" class="form-cod">Введите код,указанный на картинке</label>
+                  <div class="input_bot"><img src="./img/captcha.png" alt="Капча" class="img_kap4a"></div>
+                  <div class="input-group input_bot">
+                    <input id="cod" name="cod" type="text" placeholder="Введите код" class="kod style block-right input">
+                    <div class="error-block-right error-block">код капчи</div>
+                  </div>
+                </div>
+                <div class="button">
+                  <button type="submit" value="Отправить" class="submit style">Отправить</button>
+                </div>
+                <div class="button">
+                  <button type="reset" value="Очистить" class="reset style">Очистить</button>
+                </div>
+              </form>
+            </div>
+          </article>
+          <div class="kontaktu kontaktu_pad">
+            <ul class="spisok spisok_pad">
+              <li><a href="mailto:femida1990@mail.ru" class="mail">
+                  <div class="strelki-mail"></div>
+                  <p class="dannue">Femida1990@mail.ru</p></a></li>
+              <li><a href="skype:+380971364584?call" class="kontaktu_item">
+                  <div class="strelki-phone"></div>
+                  <p class="dannue">+380971364584</p></a></li>
+              <li><a href="skype:nobodies235?call" class="kontaktu_item">
+                  <div class="strelki-skype"></div>
+                  <p class="dannue">nobodies235</p></a></li>
+            </ul>
+          </div>
+          <ul class="icons icons_cell">
+            <li><a href="https://uk-ua.facebook.com/" class="sprite sprite-facebook"><span style="position:absolute;left:-9999px;">Facebook</span></a></li>
+            <li><a href="https://vk.com/nob0dies" class="sprite sprite-vk"><span style="position:absolute;left:-9999px;">Вконтакте</span></a></li>
+            <li><a href="https://twitter.com/?lang=ru" class="sprite sprite-twitter"><span style="position:absolute;left:-9999px;">Tvitter</span></a></li>
+            <li><a href="https://github.com/Nob0dies" class="sprite sprite-github"><span style="position:absolute;left:-9999px;">GitHub</span></a></li>
+          </ul>
         </section>
+      </div>
     </div>
-
-</div>
-<div class="otstup"></div>
-<footer class="footer">
-    <div class="cont_footer">
-        <div class="locked"></div>
-        <span class="exit">Вход</span><span class="prava">
-        ©2015. Это мой сайт,пожалуйста,не копируйте и не воруйте его!</span>
-    </div>
-</footer>
-
-
-<script src="bower/jquery/jquery.js"></script>
-<script src="js/main.js">
-</script>
-</body>
+    <footer class="footer">
+      <div class="cont_footer"><a href="exit.html" class="locked"></a><span class="exit">Вход</span><span class="prava">©2015. Это мой сайт,пожалуйста,не копируйте и не воруйте его!</span></div>
+    </footer>
+    <script src="bower/jquery/jquery.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

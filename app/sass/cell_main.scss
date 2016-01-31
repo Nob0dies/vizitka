@@ -1,0 +1,95 @@
+@media screen and (max-width: 509px) {
+  body{
+    min-width: 280px;
+  }
+
+  .icons{
+    display: none;
+  }
+
+  .menu_button.menu_button_cell{
+    display: block;
+  }
+  .socseti{
+    float:right;
+
+  }
+  .conteiner.clearfix{
+    width: 320px;
+  }
+  .content{
+    width:320px;
+    margin-left: 0;
+  }
+  .shaka_h{
+    padding-left: 0;
+    font-size:20px;
+  }
+  .foto_block{
+    margin-left: 73px;
+  }
+  .block_text1{
+    padding-left: 3px;
+  }
+  .skills{
+    width: 180px;
+  }
+  .spisok.spisok_pad>li{
+    width: 320px;
+  }
+  .icons.icons_cell{
+    display: inline-block;
+
+  }
+  .input-group{
+    display: block;
+    margin-left: 15px;
+
+  }
+#name{
+  width: 275px;
+}
+  #mail{
+    width: 275px;
+  }
+#massage{
+  width: 275px;
+}
+  .form-cod{
+    margin-left: 15px;
+  }
+  .input_bot{
+  margin-left: 15px;
+    display: inline-block;
+
+  }
+.img_kap4a{
+  width: 150px;
+}
+  #cod {
+    width: 110px;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+.submit.style{
+  margin-left: 15px;
+}
+  .reset.style{
+    margin-left: 60px;
+  }
+footer{
+  display: none;
+}
+  .locked_cell{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 17px;
+    text-decoration: none;
+  }
+  .exit{
+    margin-left:23px;
+    color:#fff;
+
+  }
+
+}

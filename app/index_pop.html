@@ -1,226 +1,223 @@
-<!DOCTYPE html>
+
+<!--
+Created by evgonchar on 30.01.2016.
+
+--><!DOCTYPE html>
 <html lang="ru-RU">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width  initial-scale=1  maximum-scale=1">
     <title>Обо мне</title>
-    <link rel="icon" href="favicon.ico" >
-    <!-- CSS -->
+    <link rel="icon" href="favicon.ico">
+    <!-- CSS-->
     <link rel="stylesheet" href="bower/normalize-css/normalize.css">
     <link rel="stylesheet" href="css/mainobwii.css">
     <link rel="stylesheet" href="css/main2.css">
     <link rel="stylesheet" href="css/main_pop.css">
-
-    <script src="bower/modernizr/modernizr.js"></script>
-</head>
-<body>
-<div class="wrapper">
-    <header class="header">
+    <link rel="stylesheet" href="css/refactor.css">
+    <link rel="stylesheet" href="css/pad_main.css">
+    <link rel="stylesheet" href="css/cell_main.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
         <div class="heder_block">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="./img/logo.png" alt="logo">
-                    <h1 class="logo_loftschool" >Loftschool</h1>
-                </a>
-            </div>
-            <div class="socseti">
-                <ul class="icons">
-                    <li><a class="sprite sprite-facebook " href="https://uk-ua.facebook.com/">
-                        <span style="position:absolute;left:-9999px;">Facebook</span></a></li>
-                    <li><a class="sprite sprite-vk" href="https://vk.com/nob0dies">
-                        <span style="position:absolute;left:-9999px;">Вконтакте</span>
-                    </a></li>
-                    <li><a class="sprite sprite-twitter" href="https://twitter.com/?lang=ru">
-                        <span style="position:absolute;left:-9999px;">Tvitter</span>
-                    </a></li>
-                    <li><a class="sprite sprite-github" href="https://github.com/Nob0dies">
-                        <span style="position:absolute;left:-9999px;">GitHub</span>
-                    </a></li>
+          <div class="logo"><a href="#"><img src="./img/logo.png" alt="logo">
+              <h1 class="logo_loftschool">Loftschool</h1></a></div>
+          <div class="socseti">
+            <ul class="icons">
+              <li><a href="https://uk-ua.facebook.com/" class="sprite sprite-facebook"><span style="position:absolute;left:-9999px;">Facebook</span></a></li>
+              <li><a href="https://vk.com/nob0dies" class="sprite sprite-vk"><span style="position:absolute;left:-9999px;">Вконтакте</span></a></li>
+              <li><a href="https://twitter.com/?lang=ru" class="sprite sprite-twitter"><span style="position:absolute;left:-9999px;">Tvitter</span></a></li>
+              <li><a href="https://github.com/Nob0dies" class="sprite sprite-github"><span style="position:absolute;left:-9999px;">GitHub</span></a></li>
+              <li>
+                <button class="menu_button"><img src="./img/menu.png"></button>
+                <ul class="vkladki vkladki_pad">
+                  <li><a href="index.html" class="vkladki__item vkladki__item-active radius">
+                      <h3 class="text_vkladki">Обо мне</h3></a></li>
+                  <li><a href="#" class="vkladki__item">
+                      <h3 class="text_vkladki">Мои Работы</h3></a></li>
+                  <li><a href="index3.html" class="vkladki__item radius1">
+                      <h3 class="text_vkladki">Обратная связь</h3></a></li>
                 </ul>
-            </div>
-        </div>
-    </header>
-    <div class="conteiner clearfix">
-        <aside class="knopki">
-            <ul class="vkladki">
-                <li><a class="vkladki__item  radius" href="index.html"><h3 class="text_vkladki">Обо мне</h3>
-                </a></li>
-                <li><a class="vkladki__item vkladki__item-active" href="#"><h3 class="text_vkladki">Мои Работы</h3></a>
-                </li>
-                <li><a class="vkladki__item radius1 " href="index3.html"><h3 class="text_vkladki">Обратная связь</h3>
-                </a>
-                </li>
+              </li>
+            </ul><a href="exit.html" class="locked locked_cell"><span class="exit">Вход</span></a>
+            <button class="menu_button menu_button_cell"><img src="./img/menu.png"></button>
+            <ul class="vkladki vkladki_pad">
+              <li><a href="index.html" class="vkladki__item vkladki__item-active radius">
+                  <h3 class="text_vkladki">Обо мне</h3></a></li>
+              <li><a href="#" class="vkladki__item">
+                  <h3 class="text_vkladki">Мои Работы</h3></a></li>
+              <li><a href="index3.html" class="vkladki__item radius1">
+                  <h3 class="text_vkladki">Обратная связь</h3></a></li>
             </ul>
-            <div class="kontaktu">
-                <ul class="spisok">
-                    <li class="kont radius"><h3 class="kont_text">Контакты</h3></li>
-                    <li><a class="mail " href="mailto:femida1990@mail.ru">
-
-                        <div class="strelki-mail" ></div>
-
-                        <p class="dannue ">Femida1990@mail.ru</p></a></li>
-                    <li><a class="kontaktu_item " href="skype:+380971364584?call">
-                        <div class="strelki-phone" ></div>
-
-                        <p class="dannue">+380971364584</p></a></li>
-                    <li><a class="kontaktu_item radius1" href="skype:nobodies235?call">
-                        <div class="strelki-skype" ></div>
-
-                        <p class="dannue">nobodies235</p></a></li>
-                </ul>
-            </div>
+          </div>
+        </div>
+      </header>
+      <div class="conteiner clearfix">
+        <aside class="knopki">
+          <ul class="vkladki">
+            <li><a href="index.html" class="vkladki__item radius">
+                <h3 class="text_vkladki">Обо мне</h3></a></li>
+            <li><a href="#" class="vkladki__item vkladki__item-active">
+                <h3 class="text_vkladki">Мои Работы</h3></a></li>
+            <li><a href="index3.html" class="vkladki__item radius1">
+                <h3 class="text_vkladki">Обратная связь</h3></a></li>
+          </ul>
+          <div class="kontaktu">
+            <ul class="spisok">
+              <li class="kont radius">
+                <h3 class="kont_text">Контакты</h3>
+              </li>
+              <li><a href="mailto:femida1990@mail.ru" class="mail">
+                  <div class="strelki-mail"></div>
+                  <p class="dannue">Femida1990@mail.ru</p></a></li>
+              <li><a href="skype:+380971364584?call" class="kontaktu_item">
+                  <div class="strelki-phone"></div>
+                  <p class="dannue">+380971364584</p></a></li>
+              <li><a href="skype:nobodies235?call" class="kontaktu_item radius1">
+                  <div class="strelki-skype"></div>
+                  <p class="dannue">nobodies235</p></a></li>
+            </ul>
+          </div>
         </aside>
-
-
         <div class="content">
-            <article class="block radius1 radius">
-                <div class="shapka radius"><h2>Мои работы</h2></div>
-                <div class="main_unit">
-                    <ul class="my_work">
-                        <li class="thumb radius radius1">
-                            <div class="img-container">
-                                <img class="sait radius " src="./img/fsto.jpg" alt="Fs.to">
-
-
-                                    <a target="_blank" class="img-caption top-bottom" href="http://fs.to/"><h5>Подробнее...</h5></a>
-
-                            </div>
-                            <h4 class="nazvanie_saita">Fs.to</h4>
-                            <div class="description">Сайт с большой коллекцией фильмов,хорошего качества</div>
-                        </li>
-                        <li class="thumb radius radius1">
-                            <div class="img-container">
-                                <img class="sait radius" src="./img/MM.jpg" alt="www.marilynmanson.com">
-
-                               <a  class="img-caption top-bottom" target="_blank" href="http://www.marilynmanson.com/">
-                                    <h5>Подробнее...</h5>
-                                </a>
-                            </div>
-                            <h4 class="nazvanie_saita">M.Manson</h4><div class="description">Фан-сайт рок идола Мерлина Менсона с большой
-                            посещаемостью</div>
-                        </li>
-                        <li class="thumb radius radius1">
-                            <div class="img-container">
-                                <img class="sait radius " src="./img/kofta.jpg" alt="kofta.com.ua">
-                                    <a target="_blank" class="img-caption top-bottom" href="http://kofta.com.ua/"><h5>Подробнее...</h5></a>
-
-                            </div>
-                            <h4 class="nazvanie_saita">kofta.com.ua</h4><div class="description">Экстравагантные и очень оригинальные коллекции
-                            украинского дизайнера</div>
-                        </li>
-                        <li class="thumb radius radius1">
-                            <div class="img-container">
-                                <img class="sait radius " src="./img/gotfric.jpg" alt="gotfrik.com">
-                                <a target="_blank" class="img-caption top-bottom" href="http://gotfrik.com/"><h5>Подробнее...</h5></a>
-                            </div>
-
-                            <h4 class="nazvanie_saita">gotfrik.com</h4><div class="description">Творчество поэтессы, писательницы, певицы Лизы
-                            Готфрик.</div>
-                        </li>
-                        <li  class="thumb radius radius1">
-
-                            <div class="img-container">
-                                <img class="sait radius " src="./img/tera.jpg" alt="www.tera-online.ru">
-                                <a target="_blank" class="img-caption top-bottom" href="http://www.tera-online.ru/"><h5>Подробнее...</h5></a>
-
-                            </div>
-                            <h4 class="nazvanie_saita">Tera</h4><div class="description">Красочная, русскоязычная, онлайн игра в свободном
-                            доступе</div></li>
-                        <li  class="thumb_dobavit radius radius1">
-                            <div class="img-container">
-                                <div class="dobavit"></div>
-                                <a target="_blank" id="showPopup" class="img-caption top-bottom" href="#"><h4 class="add-proj-img">Добавить проект</h4></a>
-
-                            </div>
-                            <div class="img-caption top-bottom"></div>
-                        </li>
-                    </ul>
-
-                </div>
-            </article>
+          <article class="block radius1 radius">
+            <div class="shapka radius">
+              <h2>Мои работы</h2>
+            </div>
+            <div class="main_unit">
+              <ul class="my_work">
+                <li class="thumb radius radius1">
+                  <div class="img-container"><img src="./img/fsto.jpg" alt="Fs.to" class="sait radius"><a target="_blank" href="http://fs.to/" class="img-caption top-bottom">
+                      <h5>Подробнее...</h5></a></div>
+                  <h4 class="nazvanie_saita">Fs.to</h4>
+                  <div class="description">Сайт с большой коллекцией фильмов,хорошего качества</div>
+                </li>
+                <li class="thumb radius radius1">
+                  <div class="img-container"><img src="./img/MM.jpg" alt="www.marilynmanson.com" class="sait radius"><a target="_blank" href="http://www.marilynmanson.com/" class="img-caption top-bottom">
+                      <h5>Подробнее...</h5></a></div>
+                  <h4 class="nazvanie_saita">M.Manson</h4>
+                  <div class="description">
+                    Фан-сайт рок идола Мерлина Менсона с большой
+                    посещаемостью
+                  </div>
+                </li>
+                <li class="thumb radius radius1">
+                  <div class="img-container"><img src="./img/kofta.jpg" alt="kofta.com.ua" class="sait radius"><a target="_blank" href="http://kofta.com.ua/" class="img-caption top-bottom">
+                      <h5>Подробнее...</h5></a></div>
+                  <h4 class="nazvanie_saita">kofta.com.ua</h4>
+                  <div class="description">
+                    Экстравагантные и очень оригинальные коллекции
+                    украинского дизайнера
+                  </div>
+                </li>
+                <li class="thumb radius radius1">
+                  <div class="img-container"><img src="./img/gotfric.jpg" alt="gotfrik.com" class="sait radius"><a target="_blank" href="http://gotfrik.com/" class="img-caption top-bottom">
+                      <h5>Подробнее...</h5></a></div>
+                  <h4 class="nazvanie_saita">gotfrik.com</h4>
+                  <div class="description">
+                    Творчество поэтессы, писательницы, певицы Лизы
+                    Готфрик.
+                  </div>
+                </li>
+                <li class="thumb radius radius1">
+                  <div class="img-container"><img src="./img/tera.jpg" alt="www.tera-online.ru" class="sait radius"><a target="_blank" href="http://www.tera-online.ru/" class="img-caption top-bottom">
+                      <h5>Подробнее...</h5></a></div>
+                  <h4 class="nazvanie_saita">Tera</h4>
+                  <div class="description">
+                    Красочная, русскоязычная, онлайн игра в свободном
+                    доступе
+                  </div>
+                </li>
+                <li class="thumb_dobavit radius radius1">
+                  <div class="img-container">
+                    <div class="dobavit"></div><a id="showPopup" target="_blank" href="#" class="img-caption top-bottom">
+                      <h4 class="add-proj-img">Добавить проект</h4></a>
+                  </div>
+                  <div class="img-caption top-bottom"></div>
+                </li>
+              </ul>
+            </div>
+          </article>
         </div>
+        <div class="kontaktu kontaktu_pad">
+          <ul class="spisok spisok_pad">
+            <li><a href="mailto:femida1990@mail.ru" class="mail">
+                <div class="strelki-mail"></div>
+                <p class="dannue">Femida1990@mail.ru</p></a></li>
+            <li><a href="skype:+380971364584?call" class="kontaktu_item">
+                <div class="strelki-phone"></div>
+                <p class="dannue">+380971364584</p></a></li>
+            <li><a href="skype:nobodies235?call" class="kontaktu_item">
+                <div class="strelki-skype"></div>
+                <p class="dannue">nobodies235</p></a></li>
+          </ul>
+        </div>
+        <ul class="icons icons_cell">
+          <li><a href="https://uk-ua.facebook.com/" class="sprite sprite-facebook"><span style="position:absolute;left:-9999px;">Facebook</span></a></li>
+          <li><a href="https://vk.com/nob0dies" class="sprite sprite-vk"><span style="position:absolute;left:-9999px;">Вконтакте</span></a></li>
+          <li><a href="https://twitter.com/?lang=ru" class="sprite sprite-twitter"><span style="position:absolute;left:-9999px;">Tvitter</span></a></li>
+          <li><a href="https://github.com/Nob0dies" class="sprite sprite-github"></a></li>
+        </ul>
+      </div>
     </div>
-
-</div>
-
-<div class="otstup"></div>
-<footer class="footer">
-    <div class="cont_footer">
-        <div class="locked"></div>
-        <span class="exit">Вход</span><span class="prava">
-        ©2015. Это мой сайт,пожалуйста,не копируйте и не воруйте его!</span>
-    </div>
-</footer>
-<div class="popup-add">
-    <div class="success radius radius1">
-        <button tupe=reset class="button-close"></button>
+    <footer class="footer">
+      <div class="cont_footer"><a href="exit.html" class="locked"></a><span class="exit">Вход</span><span class="prava">©2015. Это мой сайт,пожалуйста,не копируйте и не воруйте его!</span></div>
+    </footer>
+    <div class="popup-add">
+      <div class="success radius radius1">
+        <button tupe="reset" class="button-close"></button>
         <div class="success-text radius radius1">
-            <h3>Ура!</h3>
-            Проект успешно добавлен.
-
+          <h3>Ура!</h3>            Проект успешно добавлен.
         </div>
-    </div>
-    <div class="popup-header">
+      </div>
+      <div class="popup-header">
         <h5 class="header-text">Добавление проекта</h5>
         <div class="popup-content">
-
-             <button class="button-close b-close"></button>
-            <div class="form-center">
-                <form class="form-add-project" name="form-add-project" enctype="multipart/form-data">
-                    <div class="error-add radius radius1">
-                        <button class="close-error"></button>
-                        <h3>Ошибка!</h3>
-                        Невозможно добавить проект.
-                    </div>
-                    <div class="input-group">
-                        <label id="label-name-project" class="label-form" for="name-project" >Название проекта</label>
-                        <input name="name-proj" class="input proj radius radius1 error" type="text" id="name-project" placeholder="Введите название">
-                        <div class="error-block">введите название</div>
-            </div>
-                        <div class="input-group">
-                            <label id="label-img-project" class="label-form" for="img-proj" >Картинка проекта</label>
-                            <label class="uploadbutton error">
-                                <div class="inp-img-conteiner">
-                                    <div class="input inp-img" ><span class="inp-img-file ">Выберите файл</span></div>
-                                </div>
-
-                                <div class="button">&nbsp;</div>
-
-                                <input type="file" id="img-proj" />
-
-                            </label>
-                            <div class="error-block">изображение</div>
-                        </div>
-
-
-
-
-
-                        <div class="input-group">
-                            <label id="label-url-project" class="label-form" for="url-project" >URL проекта</label>
-                            <input name="project_url" class="input proj radius radius1 error" type="text" id="url-project" placeholder="Добавте ссылку">
-                            <div class="error-block">ссылка на проект</div>
-                        </div>
-                        <div class="input-group">
-                            <label id="label-description-project" class="label-form" for="description-project" >Описание</label>
-                            <textarea name="description" id="description-project" class="input description-project radius radius1 error" placeholder="Пара слов о Вашем проекте"></textarea>
-                            <div class="error-block">описание проекта</div>
-                        </div>
-                    <button type="submit" class="green-button radius radius1">Добавить</button>
-
-                </form>
-
-            </div>
+          <button class="button-close b-close"></button>
+          <div class="form-center">
+            <form name="form-add-project" enctype="multipart/form-data" class="form-add-project">
+              <div class="error-add radius radius1">
+                <button class="close-error"></button>
+                <h3>Ошибка!</h3>                        Невозможно добавить проект.
+              </div>
+              <div class="input-group">
+                <label id="label-name-project" for="name-project" class="label-form">Название проекта</label>
+                <input id="name-project" name="name-proj" type="text" placeholder="Введите название" class="input proj radius radius1 error">
+                <div class="error-block">введите название</div>
+              </div>
+              <div class="input-group">
+                <label id="label-img-project" for="img-proj" class="label-form">Картинка проекта</label>
+                <label class="uploadbutton error">
+                  <div class="inp-img-conteiner">
+                    <div class="input inp-img"><span class="inp-img-file">Выберите файл</span></div>
+                  </div>
+                  <div class="button"> </div>
+                  <input id="img-proj" type="file">
+                </label>
+                <div class="error-block">изображение</div>
+              </div>
+              <div class="input-group">
+                <label id="label-url-project" for="url-project" class="label-form">URL проекта</label>
+                <input id="url-project" name="project_url" type="text" placeholder="Добавте ссылку" class="input proj radius radius1 error">
+                <div class="error-block">ссылка на проект</div>
+              </div>
+              <div class="input-group">
+                <label id="label-description-project" for="description-project" class="label-form">Описание</label>
+                <textarea id="description-project" name="description" placeholder="Пара слов о Вашем проекте" class="input description-project radius radius1 error"></textarea>
+                <div class="error-block">описание проекта</div>
+              </div>
+              <button type="submit" class="green-button radius radius1">Добавить</button>
+            </form>
+          </div>
         </div>
-
+      </div>
     </div>
-</div>
-
-
-
-<script src="bower/jquery/jquery.js"></script>
-<script src="bower/bPopup/jquery.bpopup.min.js"></script>
-<script src="./js/popup.js"></script>
-
-</body>
+    <script src="bower/jquery/jquery.js"></script>
+    <script src="bower/bPopup/jquery.bpopup.min.js"></script>
+    <script src="./js/popup.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

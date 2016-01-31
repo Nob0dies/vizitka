@@ -68,7 +68,7 @@ var myModule=(function(){
     var _showModal= function (event) {
         event.preventDefault();
         var divPopUp=$(".popup-add");
-           divPopUp.bPopup({
+        divPopUp.bPopup({
             speed: 400,
             transition: 'slideUp'
 
@@ -115,7 +115,7 @@ var myModule=(function(){
         var $inputImg = $(inputFileSelector);
         var fd = new FormData($('form[name="form-add-project"]')[0]);
         fd.append(inputFileName, $inputImg.prop('files')[0]);
-       return fd;
+        return fd;
     }
 
     var _addProject=function(event){
@@ -125,27 +125,27 @@ var myModule=(function(){
         var formData = _parseForm();
 
         $.ajax({
-            url:url,
-            type:"POST",
-            processData: false,
-            contentType: false,
-            dataType:"json",
-            data:formData
-        })
-        .done(function(ans){
-            _hideErrors();
-            if(ans.errors.length>0){
-                _showErrors(ans.errors);
-                _showErrorAlert();
-            } else {
-                _showSuccessAlert();
-                _hideErrorAlert();
-            }
-        })
-        .fail(function(){
-            console.log("error")
+                url:url,
+                type:"POST",
+                processData: false,
+                contentType: false,
+                dataType:"json",
+                data:formData
+            })
+            .done(function(ans){
+                _hideErrors();
+                if(ans.errors.length>0){
+                    _showErrors(ans.errors);
+                    _showErrorAlert();
+                } else {
+                    _showSuccessAlert();
+                    _hideErrorAlert();
+                }
+            })
+            .fail(function(){
+                console.log("error")
 
-        });
+            });
 
     };
     return{

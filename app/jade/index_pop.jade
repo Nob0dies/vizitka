@@ -1,0 +1,228 @@
+//
+   Created by evgonchar on 30.01.2016.
+
+doctype html
+html(lang='ru-RU')
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta( name="viewport" content="width=device-width  initial-scale=1  maximum-scale=1")
+        title Обо мне
+        link(rel='icon', href='favicon.ico')
+        // CSS
+        link(rel='stylesheet', href='bower/normalize-css/normalize.css')
+        link(rel='stylesheet', href='css/mainobwii.css')
+        link(rel='stylesheet', href='css/main2.css')
+        link(rel='stylesheet', href='css/main_pop.css')
+        link(rel='stylesheet',href='css/refactor.css')
+        link(rel='stylesheet',href='css/pad_main.css')
+        link(rel='stylesheet',href='css/cell_main.css')
+    body
+        .wrapper
+            header.header
+                .heder_block
+                    .logo
+                        a(href='#')
+                            img(src='./img/logo.png', alt='logo')
+                            h1.logo_loftschool Loftschool
+                    .socseti
+                        ul.icons
+                            li
+                                a.sprite.sprite-facebook(href='https://uk-ua.facebook.com/')
+                                    span(style='position:absolute;left:-9999px;') Facebook
+                            li
+                                a.sprite.sprite-vk(href='https://vk.com/nob0dies')
+                                    span(style='position:absolute;left:-9999px;') Вконтакте
+                            li
+                                a.sprite.sprite-twitter(href='https://twitter.com/?lang=ru')
+                                    span(style='position:absolute;left:-9999px;') Tvitter
+                            li
+                                a.sprite.sprite-github(href='https://github.com/Nob0dies')
+                                    span(style='position:absolute;left:-9999px;') GitHub
+                            li
+                                button.menu_button
+                                    img(src="./img/menu.png")
+                                ul.vkladki.vkladki_pad
+                                    li
+                                        a.vkladki__item.vkladki__item-active.radius(href='index.html')
+                                            h3.text_vkladki Обо мне
+                                    li
+                                        a.vkladki__item(href='#')
+                                            h3.text_vkladki Мои Работы
+                                    li
+                                        a.vkladki__item.radius1(href='index3.html')
+                                            h3.text_vkladki Обратная связь
+                        a.locked.locked_cell(href="exit.html")
+                            span.exit Вход
+                        button.menu_button.menu_button_cell
+                            img(src="./img/menu.png")
+                        ul.vkladki.vkladki_pad
+                            li
+                                a.vkladki__item.vkladki__item-active.radius(href='index.html')
+                                    h3.text_vkladki Обо мне
+                            li
+                                a.vkladki__item(href='#')
+                                    h3.text_vkladki Мои Работы
+                            li
+                                a.vkladki__item.radius1(href='index3.html')
+                                    h3.text_vkladki Обратная связь
+
+
+            .conteiner.clearfix
+                aside.knopki
+                    ul.vkladki
+                        li
+                            a.vkladki__item.radius(href='index.html')
+                                h3.text_vkladki Обо мне
+                        li
+                            a.vkladki__item.vkladki__item-active(href='#')
+                                h3.text_vkladki Мои Работы
+                        li
+                            a.vkladki__item.radius1(href='index3.html')
+                                h3.text_vkladki Обратная связь
+                    .kontaktu
+                        ul.spisok
+                            li.kont.radius
+                                h3.kont_text Контакты
+                            li
+                                a.mail(href='mailto:femida1990@mail.ru')
+                                    .strelki-mail
+                                    p.dannue Femida1990@mail.ru
+                            li
+                                a.kontaktu_item(href='skype:+380971364584?call')
+                                    .strelki-phone
+                                    p.dannue +380971364584
+                            li
+                                a.kontaktu_item.radius1(href='skype:nobodies235?call')
+                                    .strelki-skype
+                                    p.dannue nobodies235
+                .content
+                    article.block.radius1.radius
+                        .shapka.radius
+                            h2 Мои работы
+                        .main_unit
+                            ul.my_work
+                                li.thumb.radius.radius1
+                                    .img-container
+                                        img.sait.radius(src='./img/fsto.jpg', alt='Fs.to')
+                                        a.img-caption.top-bottom(target='_blank', href='http://fs.to/')
+                                            h5 Подробнее...
+                                    h4.nazvanie_saita Fs.to
+                                    .description Сайт с большой коллекцией фильмов,хорошего качества
+                                li.thumb.radius.radius1
+                                    .img-container
+                                        img.sait.radius(src='./img/MM.jpg', alt='www.marilynmanson.com')
+                                        a.img-caption.top-bottom(target='_blank', href='http://www.marilynmanson.com/')
+                                            h5 Подробнее...
+                                    h4.nazvanie_saita M.Manson
+                                    .description
+                                        | Фан-сайт рок идола Мерлина Менсона с большой
+                                        | посещаемостью
+                                li.thumb.radius.radius1
+                                    .img-container
+                                        img.sait.radius(src='./img/kofta.jpg', alt='kofta.com.ua')
+                                        a.img-caption.top-bottom(target='_blank', href='http://kofta.com.ua/')
+                                            h5 Подробнее...
+                                    h4.nazvanie_saita kofta.com.ua
+                                    .description
+                                        | Экстравагантные и очень оригинальные коллекции
+                                        | украинского дизайнера
+                                li.thumb.radius.radius1
+                                    .img-container
+                                        img.sait.radius(src='./img/gotfric.jpg', alt='gotfrik.com')
+                                        a.img-caption.top-bottom(target='_blank', href='http://gotfrik.com/')
+                                            h5 Подробнее...
+                                    h4.nazvanie_saita gotfrik.com
+                                    .description
+                                        | Творчество поэтессы, писательницы, певицы Лизы
+                                        | Готфрик.
+                                li.thumb.radius.radius1
+                                    .img-container
+                                        img.sait.radius(src='./img/tera.jpg', alt='www.tera-online.ru')
+                                        a.img-caption.top-bottom(target='_blank', href='http://www.tera-online.ru/')
+                                            h5 Подробнее...
+                                    h4.nazvanie_saita Tera
+                                    .description
+                                        | Красочная, русскоязычная, онлайн игра в свободном
+                                        | доступе
+                                li.thumb_dobavit.radius.radius1
+                                    .img-container
+                                        .dobavit
+                                        a#showPopup.img-caption.top-bottom(target='_blank', href='#')
+                                            h4.add-proj-img Добавить проект
+                                    .img-caption.top-bottom
+                .kontaktu.kontaktu_pad
+                    ul.spisok.spisok_pad
+                        li
+                            a.mail(href='mailto:femida1990@mail.ru')
+                                .strelki-mail
+                                p.dannue Femida1990@mail.ru
+                        li
+                            a.kontaktu_item(href='skype:+380971364584?call')
+                                .strelki-phone
+                                p.dannue +380971364584
+                        li
+                            a.kontaktu_item(href='skype:nobodies235?call')
+                                .strelki-skype
+                                p.dannue nobodies235
+                ul.icons.icons_cell
+                    li
+                        a.sprite.sprite-facebook(href='https://uk-ua.facebook.com/')
+                            span(style='position:absolute;left:-9999px;') Facebook
+                    li
+                        a.sprite.sprite-vk(href='https://vk.com/nob0dies')
+                            span(style='position:absolute;left:-9999px;') Вконтакте
+                    li
+                        a.sprite.sprite-twitter(href='https://twitter.com/?lang=ru')
+                            span(style='position:absolute;left:-9999px;') Tvitter
+                    li
+                        a.sprite.sprite-github(href='https://github.com/Nob0dies')
+
+        footer.footer
+            .cont_footer
+                a.locked(href="exit.html")
+                span.exit Вход
+                span.prava
+                    | ©2015. Это мой сайт,пожалуйста,не копируйте и не воруйте его!
+        .popup-add
+            .success.radius.radius1
+                button.button-close(tupe='reset')
+                .success-text.radius.radius1
+                    h3 Ура!
+                    |             Проект успешно добавлен.
+            .popup-header
+                h5.header-text Добавление проекта
+                .popup-content
+                    button.button-close.b-close
+                    .form-center
+                        form.form-add-project(name='form-add-project', enctype='multipart/form-data')
+                            .error-add.radius.radius1
+                                button.close-error
+                                h3 Ошибка!
+                                |                         Невозможно добавить проект.
+                            .input-group
+                                label#label-name-project.label-form(for='name-project') Название проекта
+                                input#name-project.input.proj.radius.radius1.error(name='name-proj', type='text', placeholder='Введите название')
+                                .error-block введите название
+                            .input-group
+                                label#label-img-project.label-form(for='img-proj') Картинка проекта
+                                label.uploadbutton.error
+                                    .inp-img-conteiner
+                                        .input.inp-img
+                                            span.inp-img-file Выберите файл
+                                    .button  
+                                    input#img-proj(type='file')
+                                .error-block изображение
+                            .input-group
+                                label#label-url-project.label-form(for='url-project') URL проекта
+                                input#url-project.input.proj.radius.radius1.error(name='project_url', type='text', placeholder='Добавте ссылку')
+                                .error-block ссылка на проект
+                            .input-group
+                                label#label-description-project.label-form(for='description-project') Описание
+                                textarea#description-project.input.description-project.radius.radius1.error(name='description', placeholder='Пара слов о Вашем проекте')
+                                .error-block описание проекта
+                            button.green-button.radius.radius1(type='submit') Добавить
+        script(src='bower/jquery/jquery.js')
+        script(src='bower/bPopup/jquery.bpopup.min.js')
+        script(src='./js/popup.js')
+        script(src='js/main.js')

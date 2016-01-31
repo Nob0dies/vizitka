@@ -1,0 +1,215 @@
+//
+   Created by evgonchar on 30.01.2016.
+
+doctype html
+html(lang='ru-RU')
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta( name="viewport" content="width=device-width  initial-scale=1  maximum-scale=1")
+        title Обо мне
+        link(rel='icon', href='favicon.ico')
+        // CSS
+        link(rel='stylesheet', href='bower/normalize-css/normalize.css')
+        link(rel='stylesheet', href='css/main.css')
+        link(rel='stylesheet', href='css/mainobwii.css')
+        link(rel='stylesheet',href='css/refactor.css')
+        link(rel='stylesheet',href='css/pad_main.css')
+        link(rel='stylesheet',href='css/cell_main.css')
+
+    body
+        .wrapper
+            header.header
+                .heder_block
+                    .logo
+                        a(href='#')
+                            img(src='./img/logo.png', alt='logo')
+                            h1.logo_loftschool Loftschool
+                    .socseti
+                        ul.icons
+                            li
+                                a.sprite.sprite-facebook(href='https://uk-ua.facebook.com/')
+                                    span(style='position:absolute;left:-9999px;') Facebook
+                            li
+                                a.sprite.sprite-vk(href='https://vk.com/nob0dies')
+                                    span(style='position:absolute;left:-9999px;') Вконтакте
+                            li
+                                a.sprite.sprite-twitter(href='https://twitter.com/?lang=ru')
+                                    span(style='position:absolute;left:-9999px;') Tvitter
+                            li
+                                a.sprite.sprite-github(href='https://github.com/Nob0dies')
+                                    span(style='position:absolute;left:-9999px;') GitHub
+                            li
+                                button.menu_button
+                                    img(src="./img/menu.png")
+
+                                ul.vkladki.vkladki_pad
+                                    li
+                                        a.vkladki__item.vkladki__item-active.radius(href='#')
+                                            h3.text_vkladki Обо мне
+                                    li
+                                        a.vkladki__item(href='index_pop.html')
+                                            h3.text_vkladki Мои Работы
+                                    li
+                                        a.vkladki__item.radius1(href='index3.html')
+                                            h3.text_vkladki Обратная связь
+                        a.locked.locked_cell(href="exit.html")
+                            span.exit Вход
+                        button.menu_button.menu_button_cell
+                            img(src="./img/menu.png")
+                        ul.vkladki.vkladki_pad
+                            li
+                                a.vkladki__item.vkladki__item-active.radius(href='#')
+                                    h3.text_vkladki Обо мне
+                            li
+                                a.vkladki__item(href='index_pop.html')
+                                    h3.text_vkladki Мои Работы
+                            li
+                                a.vkladki__item.radius1(href='index3.html')
+                                    h3.text_vkladki Обратная связь
+
+
+
+
+            .conteiner.clearfix
+                aside.knopki
+                    ul.vkladki
+                        li
+                            a.vkladki__item.vkladki__item-active.radius(href='#')
+                                h3.text_vkladki Обо мне
+                        li
+                            a.vkladki__item(href='index_pop.html')
+                                h3.text_vkladki Мои Работы
+                        li
+                            a.vkladki__item.radius1(href='index3.html')
+                                h3.text_vkladki Обратная связь
+                    .kontaktu
+                        ul.spisok
+                            li.kont.radius
+                                h3.kont_text Контакты
+                            li
+                                a.mail(href='mailto:femida1990@mail.ru')
+                                    .strelki-mail
+                                    p.dannue Femida1990@mail.ru
+                            li
+                                a.kontaktu_item(href='skype:+380971364584?call')
+                                    .strelki-phone
+                                    p.dannue +380971364584
+                            li
+                                a.kontaktu_item.radius1(href='skype:nobodies235?call')
+                                    .strelki-skype
+                                    p.dannue nobodies235
+                .content
+                    article.block.radius1.radius
+                        .shapka.radius
+                            h2.shaka_h Основная информация
+                        .foto_block
+                            img.foto(src='./img/r9xgRH9wmhQ.jpg', alt='my foto')
+                        .block_text1
+                            p.text_kontent
+                                span.font Меня зовут:
+                                |  Гончар Елизавета Владимировна
+                            p.text_kontent
+                                span.font  Мой возраст:
+                                |  25лет
+                            p.text_kontent
+                                span.font Мой город:
+                                |  Мариуполь,Украина
+                            p.text_kontent
+                                span.font Моя специализация:
+                                |  FRONTEND разработчик
+                            .key_skills
+                                span.font Ключевые навыки:
+                            .skills
+                                ul.skills_block
+                                    li.skills-arrow HTML
+                                    li.skills-arrow CSS
+                                    li.skills-arrow JAVASCRIPT
+                                    li.skills-arrow GIT
+                                    li.skills-arrow GULP
+                                    li.skills-arrow PHP
+                                    li.skills-arrow ANGULAR
+                                    li.skills-arrow XML
+                    article.block.radius1.radius
+                        .shapka.radius
+                            h2.shaka_h Опыт работы
+                        ul.spisok_content
+                            li.pading_block
+                                .icon_sprite
+                                p.block_text
+                                    span.font "ИП Боровицкий"- Проодавец дисков
+                                p.block_text Сентябрь 2005 - Август 2008
+                            li.pading_block
+                                .icon_sprite
+                                p.block_text
+                                    span.font "ООО Система безопасности"-Системный администратор
+                                p.block_text Июнь 2008 - Июль 2010
+                            li.pading_block
+                                .icon_sprite
+                                p.block_text
+                                    span.font "Магазин Розничная сеть"- Ведущий аналитик по внедрению
+                                p.block_text
+                                    span.font Oracle Web Center
+                                p.block_text Август 2011 - Октябрь 2012
+                    article.block.radius1.radius
+                        .shapka.radius
+                            h2.shaka_h  Образование
+                        ul.spisok_content
+                            li.obrazovanie1
+                                .icon_sprite
+                                p.block_text
+                                    span.font Незаконченное среднее.ЗОШ №31в
+                                p.block_text  Сентября 1997 - Май 2005
+                            li.obrazovanie2
+                                .icon_sprite
+                                p.block_text
+                                    span.font
+                                        | Среднее-специальное. КПЛНП - Лаборант
+                                        | химического анализа
+                                p.block_text Сентябрь2005 - Июнь2008
+                            li.obrazovanie3
+                                .icon_sprite
+                                p.block_text
+                                    span.font Курсы Loftschool.ru
+                                p.block_text Ноябрь 2015 по настоящее время
+                .kontaktu.kontaktu_pad
+                    ul.spisok.spisok_pad
+                        li
+                            a.mail(href='mailto:femida1990@mail.ru')
+                                .strelki-mail
+                                p.dannue Femida1990@mail.ru
+                        li
+                            a.kontaktu_item(href='skype:+380971364584?call')
+                                .strelki-phone
+                                p.dannue +380971364584
+                        li
+                            a.kontaktu_item(href='skype:nobodies235?call')
+                                .strelki-skype
+                                p.dannue nobodies235
+                ul.icons.icons_cell
+                    li
+                        a.sprite.sprite-facebook(href='https://uk-ua.facebook.com/')
+                            span(style='position:absolute;left:-9999px;') Facebook
+                    li
+                        a.sprite.sprite-vk(href='https://vk.com/nob0dies')
+                            span(style='position:absolute;left:-9999px;') Вконтакте
+                    li
+                        a.sprite.sprite-twitter(href='https://twitter.com/?lang=ru')
+                            span(style='position:absolute;left:-9999px;') Tvitter
+                    li
+                        a.sprite.sprite-github(href='https://github.com/Nob0dies')
+                            span(style='position:absolute;left:-9999px;') GitHub
+
+
+        footer.footer
+            .cont_footer
+
+                a.locked(href="exit.html")
+                span.exit Вход
+                span.prava
+                    | ©2015. Это мой сайт,пожалуйста,не копируйте и не воруйте его!
+        script(src='bower/jquery/jquery.min.js')
+        script.
+            window.jQuery || document.write('script (src="bower/jquery/jquery.js")' + '\\/script')
+        script(src='bower/jquery/jquery.js')
+        script(src='js/main.js')

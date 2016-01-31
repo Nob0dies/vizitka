@@ -30,6 +30,19 @@ var myModule = (function () {
 
         }
     };
+
+//показывать и скрывать меню
+    $(function() {
+        $('.menu_button').toggle(function(){
+        $(this).siblings(".vkladki.vkladki_pad").show();
+        $(this).addClass('red');
+    }, function(){
+        $('.menu_button').siblings(".vkladki.vkladki_pad").hide();
+        $(this).removeClass('red');
+    });
+});
+
+
     var _addFeedback = function (event) {
         event.preventDefault();
 
@@ -39,11 +52,11 @@ var myModule = (function () {
         console.log(data);
 
         $.ajax({
-            url: url,
-            type: "POST",
-            dataType: "json",
-            data: data
-        })
+                url: url,
+                type: "POST",
+                dataType: "json",
+                data: data
+            })
             .done(function (ans) {
                 console.log(ans);
                 _hideErrors();

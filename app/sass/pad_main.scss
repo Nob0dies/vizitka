@@ -1,0 +1,53 @@
+@media screen and (max-width: 770px) {
+  .knopki{
+    display: none;
+  }
+.conteiner{
+  width: 550px;
+}
+  .content{
+    width:550px;
+    margin-left: 0;
+  }
+
+  .spisok.spisok_pad>li{
+    display: inline-block;
+    margin-left:-2px;
+
+  }
+  .spisok.spisok_pad{
+    width: auto;
+    margin-top: 20px;
+  }
+  .vkladki.vkladki_pad{
+    position: absolute;
+    right: 8px;
+    top: 60px;
+    -webkit-box-shadow: -7px 7px 21px 4px rgba(0,0,0,0.46);
+    -moz-box-shadow: -7px 7px 21px 4px rgba(0,0,0,0.46);
+    box-shadow: -7px 7px 21px 4px rgba(0,0,0,0.46);
+    display: none;
+    z-index:5;
+    width: 210px;
+  }
+  .foto_block{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .thumb{
+    margin-left:65px;
+
+  }
+  .thumb_dobavit{
+    margin-left: 60px;
+  }
+  .menu_button_cell{
+    display: none;
+  }
+  .icons.icons_cell{
+    display: none;
+  }
+  .locked_cell{
+    display: none;
+  }
+}

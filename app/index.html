@@ -1,171 +1,187 @@
-<!DOCTYPE html>
+
+<!--
+Created by evgonchar on 30.01.2016.
+
+--><!DOCTYPE html>
 <html lang="ru-RU">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width  initial-scale=1  maximum-scale=1">
     <title>Обо мне</title>
-    <link rel="icon" href="favicon.ico" >
-    <!-- CSS -->
+    <link rel="icon" href="favicon.ico">
+    <!-- CSS-->
     <link rel="stylesheet" href="bower/normalize-css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/mainobwii.css">
-    <script src="bower/modernizr/modernizr.js"></script>
-</head>
-<body>
-<div class="wrapper">
-    <header class="header">
+    <link rel="stylesheet" href="css/refactor.css">
+    <link rel="stylesheet" href="css/pad_main.css">
+    <link rel="stylesheet" href="css/cell_main.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
         <div class="heder_block">
-            <div class="logo">
-                <a href="#">
-                    <img src="./img/logo.png" alt="logo">
-                    <h1 class="logo_loftschool" >Loftschool</h1>
-                </a>
-            </div>
-            <div class="socseti">
-                <ul class="icons">
-                    <li><a class="sprite sprite-facebook " href="https://uk-ua.facebook.com/">
-                        <span style="position:absolute;left:-9999px;">Facebook</span></a></li>
-                    <li><a class="sprite sprite-vk" href="https://vk.com/nob0dies">
-                        <span style="position:absolute;left:-9999px;">Вконтакте</span>
-                    </a></li>
-                    <li><a class="sprite sprite-twitter" href="https://twitter.com/?lang=ru">
-                        <span style="position:absolute;left:-9999px;">Tvitter</span>
-                    </a></li>
-                    <li><a class="sprite sprite-github" href="https://github.com/Nob0dies">
-                        <span style="position:absolute;left:-9999px;">GitHub</span>
-                    </a></li>
+          <div class="logo"><a href="#"><img src="./img/logo.png" alt="logo">
+              <h1 class="logo_loftschool">Loftschool</h1></a></div>
+          <div class="socseti">
+            <ul class="icons">
+              <li><a href="https://uk-ua.facebook.com/" class="sprite sprite-facebook"><span style="position:absolute;left:-9999px;">Facebook</span></a></li>
+              <li><a href="https://vk.com/nob0dies" class="sprite sprite-vk"><span style="position:absolute;left:-9999px;">Вконтакте</span></a></li>
+              <li><a href="https://twitter.com/?lang=ru" class="sprite sprite-twitter"><span style="position:absolute;left:-9999px;">Tvitter</span></a></li>
+              <li><a href="https://github.com/Nob0dies" class="sprite sprite-github"><span style="position:absolute;left:-9999px;">GitHub</span></a></li>
+              <li>
+                <button class="menu_button"><img src="./img/menu.png"></button>
+                <ul class="vkladki vkladki_pad">
+                  <li><a href="#" class="vkladki__item vkladki__item-active radius">
+                      <h3 class="text_vkladki">Обо мне</h3></a></li>
+                  <li><a href="index_pop.html" class="vkladki__item">
+                      <h3 class="text_vkladki">Мои Работы</h3></a></li>
+                  <li><a href="index3.html" class="vkladki__item radius1">
+                      <h3 class="text_vkladki">Обратная связь</h3></a></li>
                 </ul>
-            </div>
-        </div>
-    </header>
-    <div class="conteiner clearfix">
-        <aside class="knopki">
-            <ul class="vkladki">
-                <li><a class="vkladki__item vkladki__item-active radius" href="#"><h3 class="text_vkladki">Обо мне</h3>
-                </a></li>
-                <li><a class="vkladki__item" href="index_pop.html"><h3 class="text_vkladki">Мои Работы</h3></a></li>
-                <li><a class="vkladki__item radius1" href="index3.html"><h3 class="text_vkladki">Обратная связь</h3></a>
-                </li>
+              </li>
+            </ul><a href="exit.html" class="locked locked_cell"><span class="exit">Вход</span></a>
+            <button class="menu_button menu_button_cell"><img src="./img/menu.png"></button>
+            <ul class="vkladki vkladki_pad">
+              <li><a href="#" class="vkladki__item vkladki__item-active radius">
+                  <h3 class="text_vkladki">Обо мне</h3></a></li>
+              <li><a href="index_pop.html" class="vkladki__item">
+                  <h3 class="text_vkladki">Мои Работы</h3></a></li>
+              <li><a href="index3.html" class="vkladki__item radius1">
+                  <h3 class="text_vkladki">Обратная связь</h3></a></li>
             </ul>
-            <div class="kontaktu">
-                <ul class="spisok">
-                    <li class="kont radius"><h3 class="kont_text">Контакты</h3></li>
-                    <li><a class="mail " href="mailto:femida1990@mail.ru">
-
-                        <div class="strelki-mail" ></div>
-
-                        <p class="dannue ">Femida1990@mail.ru</p></a></li>
-                    <li><a class="kontaktu_item " href="skype:+380971364584?call">
-                        <div class="strelki-phone" ></div>
-
-                        <p class="dannue">+380971364584</p></a></li>
-                    <li><a class="kontaktu_item radius1" href="skype:nobodies235?call">
-                        <div class="strelki-skype" ></div>
-
-                        <p class="dannue">nobodies235</p></a></li>
-                </ul>
-            </div>
-
+          </div>
+        </div>
+      </header>
+      <div class="conteiner clearfix">
+        <aside class="knopki">
+          <ul class="vkladki">
+            <li><a href="#" class="vkladki__item vkladki__item-active radius">
+                <h3 class="text_vkladki">Обо мне</h3></a></li>
+            <li><a href="index_pop.html" class="vkladki__item">
+                <h3 class="text_vkladki">Мои Работы</h3></a></li>
+            <li><a href="index3.html" class="vkladki__item radius1">
+                <h3 class="text_vkladki">Обратная связь</h3></a></li>
+          </ul>
+          <div class="kontaktu">
+            <ul class="spisok">
+              <li class="kont radius">
+                <h3 class="kont_text">Контакты</h3>
+              </li>
+              <li><a href="mailto:femida1990@mail.ru" class="mail">
+                  <div class="strelki-mail"></div>
+                  <p class="dannue">Femida1990@mail.ru</p></a></li>
+              <li><a href="skype:+380971364584?call" class="kontaktu_item">
+                  <div class="strelki-phone"></div>
+                  <p class="dannue">+380971364584</p></a></li>
+              <li><a href="skype:nobodies235?call" class="kontaktu_item radius1">
+                  <div class="strelki-skype"></div>
+                  <p class="dannue">nobodies235</p></a></li>
+            </ul>
+          </div>
         </aside>
         <div class="content">
-            <article class="block radius1 radius">
-                <div class="shapka radius"><h2 class="shaka_h">Основная информация</h2></div>
-                <div class="foto_block">
-                    <img class="foto" src="./img/r9xgRH9wmhQ.jpg" alt="my foto"></div>
-                <div class="block_text1">
-
-                    <p class="text_kontent"><span class="font">Меня зовут:</span> Гончар Елизавета Владимировна</p>
-
-                    <p class="text_kontent"><span class="font"> Мой возраст:</span> 25лет</p>
-
-                    <p class="text_kontent"><span class="font">Мой город:</span> Мариуполь,Украина</p>
-
-                    <p class="text_kontent"><span class="font">Моя специализация:</span> FRONTEND разработчик</p>
-
-                    <div class="key_skills"><span class="font">Ключевые навыки:</span></div> <div class="skills">
-                      <ul class="skills_block">
-                        <li class="skills-arrow">HTML</li>
-                        <li class="skills-arrow">CSS</li>
-                        <li class="skills-arrow">JAVASCRIPT</li>
-                        <li class="skills-arrow">GIT</li>
-                        <li class="skills-arrow">GULP</li>
-                        <li class="skills-arrow">PHP</li>
-                        <li class="skills-arrow">ANGULAR</li>
-                        <li class="skills-arrow">XML</li>
-                    </ul>
-                    </div>
-                </div>
-            </article>
-
-            <article class="block radius1 radius">
-                <div class="shapka radius"><h2 class="shaka_h">Опыт работы</h2></div>
-                <ul class="spisok_content">
-                    <li class="pading_block">
-                        <div class="icon_sprite"></div>
-
-                        <p class="block_text"><span class="font">"ИП Боровицкий"- Проодавец дисков</span></p>
-
-                        <p class="block_text">Сентябрь 2005 - Август 2008</p>
-                    </li>
-                    <li class="pading_block">
-                        <div class="icon_sprite"></div>
-
-                        <p class="block_text"><span class="font">"ООО Система безопасности"-Системный администратор</span></p>
-
-                        <p class="block_text">Июнь 2008 - Июль 2010</p>
-                    </li>
-                    <li class="pading_block">
-                        <div class="icon_sprite"></div>
-
-                        <p class="block_text"><span class="font">"Магазин Розничная сеть"- Ведущий аналитик по внедрению </span></p>
-
-                        <p class="block_text"><span class="font">Oracle Web Center</span></p>
-
-                        <p class="block_text">Август 2011 - Октябрь 2012</p>
-                    </li>
+          <article class="block radius1 radius">
+            <div class="shapka radius">
+              <h2 class="shaka_h">Основная информация</h2>
+            </div>
+            <div class="foto_block"><img src="./img/r9xgRH9wmhQ.jpg" alt="my foto" class="foto"></div>
+            <div class="block_text1">
+              <p class="text_kontent"><span class="font">Меня зовут:</span> Гончар Елизавета Владимировна</p>
+              <p class="text_kontent"><span class="font"> Мой возраст:</span> 25лет</p>
+              <p class="text_kontent"><span class="font">Мой город:</span> Мариуполь,Украина</p>
+              <p class="text_kontent"><span class="font">Моя специализация:</span> FRONTEND разработчик</p>
+              <div class="key_skills"><span class="font">Ключевые навыки:</span></div>
+              <div class="skills">
+                <ul class="skills_block">
+                  <li class="skills-arrow">HTML</li>
+                  <li class="skills-arrow">CSS</li>
+                  <li class="skills-arrow">JAVASCRIPT</li>
+                  <li class="skills-arrow">GIT</li>
+                  <li class="skills-arrow">GULP</li>
+                  <li class="skills-arrow">PHP</li>
+                  <li class="skills-arrow">ANGULAR</li>
+                  <li class="skills-arrow">XML</li>
                 </ul>
-            </article>
-            <article class="block radius1 radius">
-                <div class="shapka radius"><h2 class="shaka_h"> Образование</h2></div>
-                <ul class="spisok_content">
-                    <li class="obrazovanie1">
-                        <div class="icon_sprite"></div>
-                        <p class="block_text"><span class="font">Незаконченное среднее.ЗОШ №31в</span></p>
-                        <p class="block_text"> Сентября 1997 - Май 2005</p>
-                    </li>
-                    <li class="obrazovanie2">
-                        <div class="icon_sprite"></div>
-                        <p class="block_text"><span class="font">Среднее-специальное. КПЛНП - Лаборант
-                            химического анализа</span></p>
-
-                        <p class="block_text">Сентябрь2005 - Июнь2008</p>
-                    </li>
-                    <li class="obrazovanie3">
-                        <div class="icon_sprite"></div>
-                        <p class="block_text"><span class="font">Курсы Loftschool.ru</span></p>
-
-                        <p class="block_text">Ноябрь 2015 по настоящее время</p>
-                    </li>
-                </ul>
-            </article>
+              </div>
+            </div>
+          </article>
+          <article class="block radius1 radius">
+            <div class="shapka radius">
+              <h2 class="shaka_h">Опыт работы</h2>
+            </div>
+            <ul class="spisok_content">
+              <li class="pading_block">
+                <div class="icon_sprite"></div>
+                <p class="block_text"><span class="font">"ИП Боровицкий"- Проодавец дисков</span></p>
+                <p class="block_text">Сентябрь 2005 - Август 2008</p>
+              </li>
+              <li class="pading_block">
+                <div class="icon_sprite"></div>
+                <p class="block_text"><span class="font">"ООО Система безопасности"-Системный администратор</span></p>
+                <p class="block_text">Июнь 2008 - Июль 2010</p>
+              </li>
+              <li class="pading_block">
+                <div class="icon_sprite"></div>
+                <p class="block_text"><span class="font">"Магазин Розничная сеть"- Ведущий аналитик по внедрению</span></p>
+                <p class="block_text"><span class="font">Oracle Web Center</span></p>
+                <p class="block_text">Август 2011 - Октябрь 2012</p>
+              </li>
+            </ul>
+          </article>
+          <article class="block radius1 radius">
+            <div class="shapka radius">
+              <h2 class="shaka_h"> Образование</h2>
+            </div>
+            <ul class="spisok_content">
+              <li class="obrazovanie1">
+                <div class="icon_sprite"></div>
+                <p class="block_text"><span class="font">Незаконченное среднее.ЗОШ №31в</span></p>
+                <p class="block_text"> Сентября 1997 - Май 2005</p>
+              </li>
+              <li class="obrazovanie2">
+                <div class="icon_sprite"></div>
+                <p class="block_text"><span class="font">
+                    Среднее-специальное. КПЛНП - Лаборант
+                    химического анализа</span></p>
+                <p class="block_text">Сентябрь2005 - Июнь2008</p>
+              </li>
+              <li class="obrazovanie3">
+                <div class="icon_sprite"></div>
+                <p class="block_text"><span class="font">Курсы Loftschool.ru</span></p>
+                <p class="block_text">Ноябрь 2015 по настоящее время</p>
+              </li>
+            </ul>
+          </article>
         </div>
+        <div class="kontaktu kontaktu_pad">
+          <ul class="spisok spisok_pad">
+            <li><a href="mailto:femida1990@mail.ru" class="mail">
+                <div class="strelki-mail"></div>
+                <p class="dannue">Femida1990@mail.ru</p></a></li>
+            <li><a href="skype:+380971364584?call" class="kontaktu_item">
+                <div class="strelki-phone"></div>
+                <p class="dannue">+380971364584</p></a></li>
+            <li><a href="skype:nobodies235?call" class="kontaktu_item">
+                <div class="strelki-skype"></div>
+                <p class="dannue">nobodies235</p></a></li>
+          </ul>
+        </div>
+        <ul class="icons icons_cell">
+          <li><a href="https://uk-ua.facebook.com/" class="sprite sprite-facebook"><span style="position:absolute;left:-9999px;">Facebook</span></a></li>
+          <li><a href="https://vk.com/nob0dies" class="sprite sprite-vk"><span style="position:absolute;left:-9999px;">Вконтакте</span></a></li>
+          <li><a href="https://twitter.com/?lang=ru" class="sprite sprite-twitter"><span style="position:absolute;left:-9999px;">Tvitter</span></a></li>
+          <li><a href="https://github.com/Nob0dies" class="sprite sprite-github"><span style="position:absolute;left:-9999px;">GitHub</span></a></li>
+        </ul>
+      </div>
     </div>
-</div>
-<div class="otstup"></div>
-<footer class="footer">
-    <div class="cont_footer">
-        <div class="locked"></div>
-        <span class="exit">Вход</span><span class="prava">
-        ©2015. Это мой сайт,пожалуйста,не копируйте и не воруйте его!</span>
-    </div>
-</footer>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="bower/jquery/jquery.js">' +
-        '<\/script>')</script>
-
-<script src="bower/jquery/jquery.js"></script>
-<script src="js/main.js">
-</script>
-</body>
+    <footer class="footer">
+      <div class="cont_footer"><a href="exit.html" class="locked"></a><span class="exit">Вход</span><span class="prava">©2015. Это мой сайт,пожалуйста,не копируйте и не воруйте его!</span></div>
+    </footer>
+    <script src="bower/jquery/jquery.min.js"></script>
+    <script>window.jQuery || document.write('script (src="bower/jquery/jquery.js")' + '\\/script')</script>
+    <script src="bower/jquery/jquery.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

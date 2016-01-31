@@ -1,3 +1,4 @@
+
 .pading_block {
   padding-bottom: 15px;
   border-top: 1px #dbdbda solid;
@@ -5,30 +6,34 @@
   min-height: 60px;
   padding-top: 15px;
   font-size: 14px;
-  font-family: 'open_sansregular'; }
-
-.pading_block .icon_sprite {
-  background-position: -69px -5px; }
+  font-family: 'open_sansregular';
+}
+.pading_block .icon_sprite{
+  background-position: -69px -5px;
+}
 
 .block_text {
   display: block;
   margin: 0;
-  padding-left: 98px; }
+  padding-left: 98px;
+}
 
 .pading_block:first-child, .pading_block:last-child {
-  border: none; }
+  border: none;
+}
 
 .spisok_content {
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 25px; }
-
+  margin-top: 25px;
+}
 .icon_sprite {
   height: 55px;
   width: 54px;
   float: left;
   background: url("../img/spritesheet%20(2).png") no-repeat;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+}
 
 .obrazovanie1 {
   padding-bottom: 15px;
@@ -37,20 +42,26 @@
   min-height: 60px;
   padding-top: 15px;
   font-size: 14px;
-  font-family: 'open_sansregular'; }
-
-.obrazovanie1 .icon_sprite {
-  background-position: -133px -5px; }
+  font-family: 'open_sansregular';
+}
+.obrazovanie1 .icon_sprite{
+  background-position: -133px -5px;
+}
 
 .obrazovanie1:first-child, .obrazovanie1:last-child {
-  border: none; }
+  border: none;
+}
 
 .obrazovanie1 > p:first-child {
-  padding-top: 25px; }
+  padding-top: 25px;
+}
 
 .obrazovanie1 > p {
   padding-left: 97px;
-  padding-top: 5px; }
+  padding-top: 5px;
+
+
+}
 
 .obrazovanie2 {
   padding-bottom: 15px;
@@ -59,20 +70,25 @@
   min-height: 60px;
   padding-top: 15px;
   font-size: 14px;
-  font-family: 'open_sansregular'; }
-
-.obrazovanie2 .icon_sprite {
-  background-position: -5px -5px; }
+  font-family: 'open_sansregular';
+}
+.obrazovanie2 .icon_sprite{
+  background-position: -5px -5px;
+}
 
 .obrazovanie2:first-child, .obrazovanie2:last-child {
-  border: none; }
+  border: none;
+}
 
 .obrazovanie2 > p:first-child {
-  padding-top: 25px; }
+  padding-top: 25px;
+}
 
 .obrazovanie2 > p {
   padding-left: 97px;
-  padding-top: 5px; }
+  padding-top: 5px;
+
+}
 
 .obrazovanie3 {
   padding-bottom: 15px;
@@ -81,20 +97,24 @@
   min-height: 60px;
   padding-top: 15px;
   font-size: 14px;
-  font-family: 'open_sansregular'; }
-
-.obrazovanie3 .icon_sprite {
-  background-position: -5px -70px; }
+  font-family: 'open_sansregular';
+}
+.obrazovanie3 .icon_sprite{
+  background-position: -5px -70px;
+}
 
 .obrazovanie3:first-child, .obrazovanie3:last-child {
-  border: none; }
+  border: none;
+}
 
 .obrazovanie3 > p:first-child {
-  padding-top: 25px; }
+  padding-top: 25px;
+}
 
 .obrazovanie3 > p {
   padding-left: 97px;
-  padding-top: 5px; }
+  padding-top: 5px;
+}
 
 .foto {
   height: 130px;
@@ -102,9 +122,9 @@
   border-radius: 50% 50%;
   overflow: hidden;
   border: 10px solid #f3f2f1;
-  box-shadow: 0 0 0 2px #cdcccb; }
-
-.skills-arrow {
+  box-shadow: 0 0 0 2px #cdcccb;
+}
+.skills-arrow{
   font-size: 9px;
   text-transform: uppercase;
   margin: 0 0 10px 16px;
@@ -125,59 +145,69 @@
   background: #ffffff;
   background: -moz-linear-gradient(top, #ffffff 0%, #fbf9f9 6%, #e9e6e4 100%);
   background: -webkit-linear-gradient(top, #ffffff 0%, #fbf9f9 6%, #e9e6e4 100%);
-  background: linear-gradient(to bottom, #ffffff 0%, #fbf9f9 6%, #e9e6e4 100%); }
-
+  background: linear-gradient(to bottom, #ffffff 0%, #fbf9f9 6%, #e9e6e4 100%);
+}
 .skills-arrow:before {
   content: url(../img/arrow.png);
   position: absolute;
   top: -1px;
-  left: -11px; }
-
+  left: -11px;
+}
 .skills-arrow:after {
   content: url(../img/arrow2.png);
   position: absolute;
   top: -1px;
-  right: -2px; }
+  right: -2px;
+}
 
 .foto_block {
   height: 130px;
   width: 130px;
   float: left;
-  padding: 40px; }
+  padding: 40px;
+}
 
 .block_text1 {
   padding-top: 27px;
   width: 380px;
   padding-bottom: 27px;
   padding-left: 12px;
-  overflow: hidden; }
-
-.key_skills {
+  overflow: hidden;
+}
+.key_skills{
   float: left;
   padding-left: 7px;
-  padding-top: 10px; }
+  padding-top:10px ;
 
-.skills {
+}
+.skills{
   width: 300px;
   padding-left: 108px;
-  padding-top: 10px; }
+  padding-top: 10px;
 
-.skills_block li {
+}
+.skills_block li{
   display: inline;
-  height: 24px; }
+  height:24px ;
+}
+
 
 .text_kontent {
   margin: 5px;
-  font-size: 13px;
-  font-family: 'open_sansregular'; }
+  font-size:13px ;
+  font-family: 'open_sansregular';
+
+}
 
 .pading_block > p:first-child {
-  padding-top: 25px; }
+  padding-top: 25px;
+}
 
 .pading_block > p {
   padding-left: 97px;
-  padding-top: 5px; }
-
-.font {
+  padding-top: 5px;
+}
+.font{
   font-size: 14px;
-  font-family: 'open_sanssemibold'; }
+  font-family: 'open_sanssemibold';
+}
